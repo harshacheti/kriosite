@@ -1,0 +1,3079 @@
+:root {
+	--web-view-ids: Home,HomePhone;
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: false;
+	--web-scale-on-double-click: false;
+	--web-center-horizontally: true;
+	--web-center-vertically: false;
+	--web-actual-size-on-double-click: false;
+	--web-navigate-on-keypress: false;
+	--web-refresh-for-changes: false;
+	--web-add-image-compare: false;
+	--web-show-by-media-query: true;
+	--web-application: false;
+	--web-show-navigation-controls: false;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: false;
+}
+#Home,
+#HomePhone {
+	display: none;
+}
+@media (min-width: 1366px) {
+	.mediaViewInfo {
+		--web-view-name: Home;
+		--web-view-id: Home;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Home {
+		position: absolute;
+		display: block;
+		width: 1366px;
+		height: 4265px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Home;
+		--web-view-id: Home;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#Path_47_y {
+		fill: url(#Path_47_y);
+	}
+	.Path_47_y {
+		overflow: visible;
+		position: absolute;
+		width: 1366px;
+		height: 316px;
+		left: 0px;
+		top: 3949px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_6 {
+		fill: transparent;
+	}
+	.Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 90px;
+		left: 0px;
+		top: 0px;
+	}
+	#ID2316480 {
+		position: absolute;
+		width: 1366px;
+		height: 710px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#final_KRIO_logo {
+		position: absolute;
+		width: 265px;
+		height: 77px;
+		left: 90px;
+		top: 18px;
+		overflow: visible;
+	}
+	#Home_ {
+		left: 676px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(254,12,152,1);
+	}
+	#About {
+		left: 757px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Locate_us {
+		left: 1249px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 54px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(57,49,134,1);
+	}
+	#Corporate_Childcare {
+		left: 974px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 107px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Programs_Offered {
+		left: 838px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 97px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Icon_awesome-facebook-square {
+		fill: rgba(57,49,134,1);
+	}
+	.Icon_awesome-facebook-square {
+		overflow: visible;
+		position: absolute;
+		width: 10.875px;
+		height: 10.875px;
+		left: 1213.125px;
+		top: 10.25px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Gallery_ {
+		left: 1120px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Contact_us {
+		left: 1207px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 74px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#ID8008893769 {
+		left: 1087.226px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 84px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(57,49,134,1);
+	}
+	#Icon_awesome-phone-alt {
+		fill: rgba(57,49,134,1);
+	}
+	.Icon_awesome-phone-alt {
+		overflow: visible;
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		left: 1070.226px;
+		top: 11px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_material-email {
+		fill: rgba(57,49,134,1);
+	}
+	.Icon_material-email {
+		overflow: visible;
+		position: absolute;
+		width: 12.5px;
+		height: 10px;
+		left: 1190.226px;
+		top: 11px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_17 {
+		fill: rgba(228,228,228,1);
+	}
+	.Rectangle_17 {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 352px;
+		left: 0px;
+		top: 729px;
+	}
+	#Image_19 {
+		opacity: 0;
+		fill: rgba(122,48,48,1);
+	}
+	.Image_19 {
+		position: absolute;
+		overflow: visible;
+		width: 260px;
+		height: 287px;
+		left: 90px;
+		top: 745px;
+	}
+	#Rectangle_19 {
+		opacity: 0;
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_19 {
+		position: absolute;
+		overflow: visible;
+		width: 260px;
+		height: 260px;
+		left: 407px;
+		top: 745px;
+	}
+	#Rectangle_19_bg {
+		opacity: 0;
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_19_bg {
+		position: absolute;
+		overflow: visible;
+		width: 260px;
+		height: 260px;
+		left: 708px;
+		top: 745px;
+	}
+	#Rectangle_19_bh {
+		opacity: 0;
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_19_bh {
+		position: absolute;
+		overflow: visible;
+		width: 260px;
+		height: 260px;
+		left: 1017px;
+		top: 745px;
+	}
+	#cam {
+		position: absolute;
+		width: 113px;
+		height: 104px;
+		left: 164px;
+		top: 771px;
+		overflow: visible;
+	}
+	#abc {
+		position: absolute;
+		width: 113px;
+		height: 104px;
+		left: 481px;
+		top: 771px;
+		overflow: visible;
+	}
+	#fruit {
+		position: absolute;
+		width: 113px;
+		height: 104px;
+		left: 782px;
+		top: 771px;
+		overflow: visible;
+	}
+	#NoPath_-_Copy_9 {
+		position: absolute;
+		width: 104px;
+		height: 104px;
+		left: 1096px;
+		top: 771px;
+		overflow: visible;
+	}
+	#NoPath_-_Copy_10 {
+		display: none;
+		position: absolute;
+		width: 1366px;
+		height: 768px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Professional__Quality_Childcar {
+		left: 171px;
+		top: 146px;
+		position: absolute;
+		overflow: visible;
+		width: 277px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(254,12,152,1);
+	}
+	#KRIO_Educare {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		left: 169px;
+		top: 183px;
+		position: absolute;
+		overflow: visible;
+		width: 411px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(36,160,237,1);
+	}
+	#Group_48 {
+		position: absolute;
+		width: 193px;
+		height: 49px;
+		left: 171px;
+		top: 511px;
+		overflow: visible;
+	}
+	#Rectangle_150 {
+		fill: rgba(181,181,181,1);
+	}
+	.Rectangle_150 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.478));
+		position: absolute;
+		overflow: visible;
+		width: 211px;
+		height: 67px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_21:hover {
+		fill: rgba(181,181,181,1);
+	}
+	#Rectangle_21 {
+		fill: rgba(36,160,237,1);
+		transition: all .3s ease-out;
+	}
+	.Rectangle_21 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.478));
+		position: absolute;
+		overflow: visible;
+		width: 211px;
+		height: 67px;
+		left: 0px;
+		top: 0px;
+	}
+	#Explore_more {
+		left: 30px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 135px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_49 {
+		position: absolute;
+		width: 193px;
+		height: 49px;
+		left: 386px;
+		top: 511px;
+		overflow: visible;
+	}
+	#Rectangle_31 {
+		fill: rgba(218,218,218,1);
+		stroke: rgba(36,160,237,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_31 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.478));
+		position: absolute;
+		overflow: visible;
+		width: 211px;
+		height: 67px;
+		left: 0px;
+		top: 0px;
+	}
+	#Enquire_now {
+		left: 34px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 127px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(36,160,237,1);
+	}
+	#Rectangle_22 {
+		opacity: 0;
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_22 {
+		position: absolute;
+		overflow: visible;
+		width: 376px;
+		height: 154px;
+		left: 171px;
+		top: 307px;
+	}
+	#KRIO_intends_to_enhance_the_pr {
+		left: 171px;
+		top: 307px;
+		position: absolute;
+		overflow: visible;
+		width: 405px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#KRIO_Educare_is_conceived_with {
+		left: 171px;
+		top: 407px;
+		position: absolute;
+		overflow: visible;
+		width: 368px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Highest_level_Safety {
+		left: 144px;
+		top: 883px;
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Early_Learning {
+		left: 480px;
+		top: 883px;
+		position: absolute;
+		overflow: visible;
+		width: 113px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Censory_Based_Food {
+		left: 760px;
+		top: 883px;
+		position: absolute;
+		overflow: visible;
+		width: 155px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Highest_level_Safety_b {
+		left: 1067px;
+		top: 883px;
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_2 {
+		position: absolute;
+		width: 220px;
+		height: 119px;
+		left: 145px;
+		top: 913px;
+		overflow: visible;
+	}
+	#Live_CCTV_access {
+		left: 14px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 117px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Stringent_SOPs {
+		left: 14px;
+		top: 33px;
+		position: absolute;
+		overflow: visible;
+		width: 104px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Child_Safe_Furniture__Interior {
+		left: 14px;
+		top: 66px;
+		position: absolute;
+		overflow: visible;
+		width: 207px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Safe_School_Certification {
+		left: 14px;
+		top: 99px;
+		position: absolute;
+		overflow: visible;
+		width: 171px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Ellipse_2 {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2 {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 5px;
+	}
+	#Ellipse_2_b {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_b {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 38px;
+	}
+	#Ellipse_2_ca {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_ca {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 70px;
+	}
+	#Ellipse_2_cb {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_cb {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 104px;
+	}
+	#Group_3 {
+		position: absolute;
+		width: 206px;
+		height: 119px;
+		left: 462px;
+		top: 913px;
+		overflow: visible;
+	}
+	#Communicating_with_others {
+		left: 14px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 191px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Milestone_based_Curriculum {
+		left: 14px;
+		top: 33px;
+		position: absolute;
+		overflow: visible;
+		width: 193px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Nurturing_Creativity {
+		left: 14px;
+		top: 66px;
+		position: absolute;
+		overflow: visible;
+		width: 139px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Innovative_learning {
+		left: 14px;
+		top: 99px;
+		position: absolute;
+		overflow: visible;
+		width: 133px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Ellipse_2_ch {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_ch {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 5px;
+	}
+	#Ellipse_2_ci {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_ci {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 38px;
+	}
+	#Ellipse_2_cj {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_cj {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 70px;
+	}
+	#Ellipse_2_ck {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_ck {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 104px;
+	}
+	#Group_4 {
+		position: absolute;
+		width: 205px;
+		height: 119px;
+		left: 763px;
+		top: 913px;
+		overflow: visible;
+	}
+	#Age-Approprite {
+		left: 14px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 107px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Nutritionist_Certified_Menu {
+		left: 14px;
+		top: 33px;
+		position: absolute;
+		overflow: visible;
+		width: 187px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Total_Health__Hygiene_Care {
+		left: 14px;
+		top: 66px;
+		position: absolute;
+		overflow: visible;
+		width: 192px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Child_Friendly_Facilities {
+		left: 14px;
+		top: 99px;
+		position: absolute;
+		overflow: visible;
+		width: 162px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Ellipse_2_cq {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_cq {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 5px;
+	}
+	#Ellipse_2_cr {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_cr {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 38px;
+	}
+	#Ellipse_2_cs {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_cs {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 70px;
+	}
+	#Ellipse_2_ct {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_ct {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 104px;
+	}
+	#Group_5 {
+		position: absolute;
+		width: 194px;
+		height: 119px;
+		left: 1072px;
+		top: 922px;
+		overflow: visible;
+	}
+	#ID247__365_days_open {
+		left: 14px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 149px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#ID247_monitoring {
+		left: 14px;
+		top: 33px;
+		position: absolute;
+		overflow: visible;
+		width: 113px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Experienced_trained_team {
+		left: 14px;
+		top: 66px;
+		position: absolute;
+		overflow: visible;
+		width: 181px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Pleasant_Staff {
+		left: 14px;
+		top: 99px;
+		position: absolute;
+		overflow: visible;
+		width: 97px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(36,160,237,1);
+	}
+	#Ellipse_2_cz {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_cz {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 5px;
+	}
+	#Ellipse_2_c {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_c {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 38px;
+	}
+	#Ellipse_2_da {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_da {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 70px;
+	}
+	#Ellipse_2_db {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_db {
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		height: 7px;
+		left: 0px;
+		top: 104px;
+	}
+	#Group_53 {
+		position: absolute;
+		width: 1366px;
+		height: 501px;
+		left: 0px;
+		top: 1637px;
+		overflow: visible;
+	}
+	#ID2723394 {
+		position: absolute;
+		width: 1366px;
+		height: 501px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_24 {
+		fill: rgba(244,244,244,1);
+	}
+	.Rectangle_24 {
+		position: absolute;
+		overflow: visible;
+		width: 575px;
+		height: 501px;
+		left: 0px;
+		top: 0px;
+	}
+	#Why_KRIO_ {
+		left: 171px;
+		top: 93px;
+		position: absolute;
+		overflow: visible;
+		width: 164px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,128,207,1);
+	}
+	#Team_KRIO_in_their_past_experi {
+		left: 171px;
+		top: 179px;
+		position: absolute;
+		overflow: visible;
+		width: 495px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(224,1,71,1);
+	}
+	#Rectangle_26 {
+		position: absolute;
+		width: 553px;
+		height: 427px;
+		left: 90px;
+		top: 3241px;
+		overflow: visible;
+	}
+	#Line_2 {
+		fill: transparent;
+		stroke: rgba(254,12,152,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_2 {
+		overflow: visible;
+		position: absolute;
+		width: 22px;
+		height: 2px;
+		left: 685.5px;
+		top: 66px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#final_KRIO_logo_da {
+		position: absolute;
+		width: 222px;
+		height: 57px;
+		left: 121px;
+		top: 4076px;
+		overflow: visible;
+	}
+	#Icon_material-email_db {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_material-email_db {
+		overflow: visible;
+		position: absolute;
+		width: 29.104px;
+		height: 23.283px;
+		left: 1074.226px;
+		top: 4146px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_krio_-_2020 {
+		left: 175px;
+		top: 4177px;
+		position: absolute;
+		overflow: visible;
+		width: 116px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#abcgmailcom {
+		left: 1121px;
+		top: 4145px;
+		position: absolute;
+		overflow: visible;
+		width: 136px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#ID8008893769_de {
+		left: 1114.127px;
+		top: 4191px;
+		position: absolute;
+		overflow: visible;
+		width: 143px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#Icon_awesome-phone-alt_df {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-phone-alt_df {
+		overflow: visible;
+		position: absolute;
+		width: 18.177px;
+		height: 18.177px;
+		left: 1083.226px;
+		top: 4196.453px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Home_dg {
+		left: 389px;
+		top: 4096px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#About_dh {
+		left: 474px;
+		top: 4096px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Programs {
+		left: 559px;
+		top: 4096px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Corporate_Daycare {
+		left: 679px;
+		top: 4096px;
+		position: absolute;
+		overflow: visible;
+		width: 117px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Gallery_dk {
+		left: 834px;
+		top: 4096px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Contact_us_dl {
+		left: 931px;
+		top: 4096px;
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Find__the_RIGHT_Preschool_Dayc {
+		left: 718px;
+		top: 3225px;
+		position: absolute;
+		overflow: visible;
+		width: 518px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bubblegum Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(0,0,0,1);
+	}
+	#FAVPNG_university-and-college- {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.439));
+		position: absolute;
+		width: 421px;
+		height: 117px;
+		left: 846px;
+		top: 132px;
+		overflow: visible;
+	}
+	#enquiresection {
+		fill: rgba(255,255,255,1);
+	}
+	.enquiresection {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.451));
+		position: absolute;
+		overflow: visible;
+		width: 535px;
+		height: 654px;
+		left: 718px;
+		top: 3274px;
+	}
+	#Enquire_Now_ {
+		left: 905px;
+		top: 3295px;
+		position: absolute;
+		overflow: visible;
+		width: 142px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bubblegum Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_50 {
+		position: absolute;
+		width: 434px;
+		height: 546px;
+		left: 760px;
+		top: 3343px;
+		overflow: visible;
+	}
+	#Rectangle_29 {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 434px;
+		height: 59px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		border:  1px solid #ccc;
+		fill:  rgba(220,220,220);
+		padding-left:  20px;
+		border-radius:  10px;
+	}
+	#Rectangle_29_ds {
+		fill: rgba(245,245,245,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_29_ds {
+		position: absolute;
+		overflow: visible;
+		width: 434px;
+		height: 59px;
+		left: 0px;
+		top: 79px;
+		border:  1px solid #ccc;
+		fill:  rgba(220,220,220);
+		padding-left:  20px;
+		border-radius:  10px;
+	}
+	#Rectangle_29_dt {
+		fill: rgba(245,245,245,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_29_dt {
+		position: absolute;
+		overflow: visible;
+		width: 434px;
+		height: 59px;
+		left: 0px;
+		top: 158px;
+		border:  1px solid #ccc;
+		fill:  rgba(220,220,220);
+		padding-left:  20px;
+		border-radius:  10px;
+	}
+	#Rectangle_29_du {
+		fill: rgba(245,245,245,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_29_du {
+		position: absolute;
+		overflow: visible;
+		width: 434px;
+		height: 59px;
+		left: 0px;
+		top: 237px;
+		border:  1px solid #ccc;
+		fill:  rgba(220,220,220);
+		padding-left:  20px;
+		border-radius:  10px;
+	}
+	#Rectangle_29_dv {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 434px;
+		height: 59px;
+		left: 0px;
+		top: 316px;
+		overflow: visible;
+		border:  1px solid #ccc;
+		fill:  rgba(220,220,220);
+		padding-left:  20px;
+		border-radius:  10px;
+	}
+	#Rectangle_149 {
+		fill: rgba(245,245,245,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_149 {
+		position: absolute;
+		overflow: visible;
+		width: 434px;
+		height: 88px;
+		left: 0px;
+		top: 391px;
+		border:  1px solid #ccc;
+		fill:  rgba(220,220,220);
+		padding-left:  20px;
+		border-radius:  10px;
+	}
+	#Rectangle_30 {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 229px;
+		height: 57px;
+		left: 98px;
+		top: 489px;
+		overflow: visible;
+		background-color:  rgba(35,0,255);
+		border-radius:  100px;
+		color: white;
+	}
+	#Icon_material-location-on {
+		fill: rgba(254,0,135,1);
+	}
+	.Icon_material-location-on {
+		overflow: visible;
+		position: absolute;
+		width: 23.529px;
+		height: 33.613px;
+		left: 263px;
+		top: 3694px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID1_Krio_Educare_PvtLtd_Anand_ {
+		left: 144px;
+		top: 3763px;
+		position: absolute;
+		overflow: visible;
+		width: 173px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(102,102,102,1);
+	}
+	#ID2_Krio_Educare_Pvt_Ltd_A1_Pr {
+		left: 377px;
+		top: 3763px;
+		position: absolute;
+		overflow: visible;
+		width: 185px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(102,102,102,1);
+	}
+	#Branches {
+		left: 301px;
+		top: 3703px;
+		position: absolute;
+		overflow: visible;
+		width: 109px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(254,0,135,1);
+		text-decoration: underline;
+	}
+	#Line_3 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_3 {
+		overflow: visible;
+		position: absolute;
+		width: 3px;
+		height: 117px;
+		left: 171.5px;
+		top: 593.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Scroll {
+		left: 182px;
+		top: 652px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(36,160,237,1);
+	}
+	#Group_81 {
+		position: absolute;
+		width: 1366px;
+		height: 501px;
+		left: 0px;
+		top: 2160px;
+		overflow: visible;
+	}
+	#ID2723385 {
+		position: absolute;
+		width: 1366px;
+		height: 501px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_25 {
+		fill: rgba(240,240,240,1);
+	}
+	.Rectangle_25 {
+		position: absolute;
+		overflow: visible;
+		width: 575px;
+		height: 501px;
+		left: 791px;
+		top: 0px;
+	}
+	#Team_KRIO_is_devoted_to_delive {
+		left: 683px;
+		top: 178px;
+		position: absolute;
+		overflow: visible;
+		width: 635px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(222,178,4,1);
+	}
+	#Group_80 {
+		position: absolute;
+		width: 1366px;
+		height: 517px;
+		left: 0px;
+		top: 1099px;
+		overflow: visible;
+	}
+	#aboutsection {
+		position: absolute;
+		width: 1366px;
+		height: 517px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_23 {
+		fill: rgba(148,155,243,1);
+	}
+	.Rectangle_23 {
+		position: absolute;
+		overflow: visible;
+		width: 74px;
+		height: 74px;
+		left: 90px;
+		top: 402px;
+	}
+	#db9c6e_042483b4abe748deba5115c {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 407px;
+		height: 414px;
+		left: 127px;
+		top: 25px;
+		overflow: visible;
+	}
+	#Well_begun_is_half_done_Major_ {
+		left: 612px;
+		top: 244px;
+		position: absolute;
+		overflow: visible;
+		width: 628px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(229,1,69,1);
+	}
+	#Life_Begins_Here {
+		left: 612px;
+		top: 436px;
+		position: absolute;
+		overflow: visible;
+		width: 279px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 32px;
+		color: rgba(10,11,7,1);
+	}
+	#The_Best_Playschool_in_Country {
+		filter: drop-shadow(0px 3px 6px rgba(46, 35, 131, 0.369));
+		left: 608px;
+		top: 182px;
+		position: absolute;
+		overflow: visible;
+		width: 462px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(46,35,131,1);
+	}
+	#Icon_material-location-on_ef {
+		fill: rgba(57,49,134,1);
+	}
+	.Icon_material-location-on_ef {
+		overflow: visible;
+		position: absolute;
+		width: 8.275px;
+		height: 11.437px;
+		left: 1238.188px;
+		top: 9.687px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Desgined_by_Hava {
+		left: 1174px;
+		top: 4238px;
+		position: absolute;
+		overflow: visible;
+		width: 83px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Poor Richard;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+		text-decoration: underline;
+	}
+	#Group_82 {
+		position: absolute;
+		width: 1366px;
+		height: 509px;
+		left: 0px;
+		top: 2685px;
+		overflow: visible;
+	}
+	#ID3969643 {
+		position: absolute;
+		width: 1366px;
+		height: 509px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_27 {
+		fill: rgba(230,230,228,1);
+	}
+	.Rectangle_27 {
+		position: absolute;
+		overflow: visible;
+		width: 575px;
+		height: 509px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sensory_Based_Food {
+		left: 171px;
+		top: 38px;
+		position: absolute;
+		overflow: visible;
+		width: 300px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(254,0,135,1);
+	}
+	#Encouraging_children_to_have_a {
+		left: 171px;
+		top: 106px;
+		position: absolute;
+		overflow: visible;
+		width: 682px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(26,118,133,1);
+	}
+}
+@media (min-width: 0px) and (max-width: 1365px) {
+	.mediaViewInfo {
+		--web-view-name: HomePhone;
+		--web-view-id: HomePhone;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#HomePhone {
+		position: absolute;
+		display: block;
+		width: 375px;
+		height: 3758px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: HomePhone;
+		--web-view-id: HomePhone;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#Rectangle_101_ep {
+		fill: url(#Rectangle_101_ep);
+	}
+	.Rectangle_101_ep {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 165px;
+		left: 0px;
+		top: 3596px;
+	}
+	#ID2316480_eq {
+		position: absolute;
+		width: 385px;
+		height: 565px;
+		left: -7.5px;
+		top: -2.5px;
+		overflow: visible;
+	}
+	#final_KRIO_logo_er {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 140px;
+		height: 36px;
+		left: 118px;
+		top: 13px;
+		overflow: visible;
+	}
+	#final_KRIO_logo_es {
+		position: absolute;
+		width: 125px;
+		height: 34px;
+		left: 127px;
+		top: 3673px;
+		overflow: visible;
+	}
+	#Icon_ionic-ios-menu {
+		position: absolute;
+		width: 18.225px;
+		height: 16.333px;
+		left: 18px;
+		top: 18.125px;
+		overflow: visible;
+	}
+	#Path_23 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_23 {
+		overflow: visible;
+		position: absolute;
+		width: 18.225px;
+		height: 2.333px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_24 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_24 {
+		overflow: visible;
+		position: absolute;
+		width: 18.225px;
+		height: 2.333px;
+		left: 0px;
+		top: 7px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_25 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_25 {
+		overflow: visible;
+		position: absolute;
+		width: 18.225px;
+		height: 2.333px;
+		left: 0px;
+		top: 14px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Professional__Quality_Childcar_ex {
+		left: 51px;
+		top: 82px;
+		position: absolute;
+		overflow: visible;
+		width: 135px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(36,160,237,1);
+	}
+	#KRIO_Educare_ey {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		left: 46px;
+		top: 96px;
+		position: absolute;
+		overflow: visible;
+		width: 273px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 47px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_89 {
+		fill: rgba(36,160,237,1);
+	}
+	.Rectangle_89 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.478));
+		position: absolute;
+		overflow: visible;
+		width: 147px;
+		height: 55px;
+		left: 51px;
+		top: 295px;
+	}
+	#Explore_more_e {
+		left: 78px;
+		top: 303px;
+		position: absolute;
+		overflow: visible;
+		width: 73px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_52 {
+		position: absolute;
+		width: 129px;
+		height: 37px;
+		left: 193px;
+		top: 295px;
+		overflow: visible;
+	}
+	#Rectangle_90 {
+		fill: rgba(218,218,218,1);
+		stroke: rgba(36,160,237,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_90 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.478));
+		position: absolute;
+		overflow: visible;
+		width: 147px;
+		height: 55px;
+		left: 0px;
+		top: 0px;
+	}
+	#Enquire_now_e {
+		left: 29px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 69px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(36,160,237,1);
+	}
+	#KRIO_intends_to_enhance_the_pr_e {
+		left: 51px;
+		top: 175px;
+		position: absolute;
+		overflow: visible;
+		width: 197px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(0,0,0,1);
+	}
+	#KRIO_Educare_is_conceived_with_e {
+		left: 51px;
+		top: 233px;
+		position: absolute;
+		overflow: visible;
+		width: 180px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_91 {
+		fill: rgba(228,228,228,1);
+	}
+	.Rectangle_91 {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 451px;
+		left: 0px;
+		top: 563px;
+	}
+	#cam_e {
+		position: absolute;
+		width: 67px;
+		height: 65px;
+		left: 47px;
+		top: 601px;
+		overflow: visible;
+	}
+	#abc_e {
+		position: absolute;
+		width: 66px;
+		height: 65px;
+		left: 234px;
+		top: 601px;
+		overflow: visible;
+	}
+	#Highest_level_Safety_e {
+		left: 36px;
+		top: 671px;
+		position: absolute;
+		overflow: visible;
+		width: 86px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Early_Learning_fa {
+		left: 233px;
+		top: 671px;
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_25 {
+		position: absolute;
+		width: 124px;
+		height: 73px;
+		left: 36px;
+		top: 690px;
+		overflow: visible;
+	}
+	#Live_CCTV_access_fc {
+		left: 8px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 66px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Stringent_SOPs_fd {
+		left: 8px;
+		top: 21px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Child_Safe_Furniture__Interior_fe {
+		left: 8px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 117px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Safe_School_Certification_ff {
+		left: 8px;
+		top: 62px;
+		position: absolute;
+		overflow: visible;
+		width: 97px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Ellipse_2_fg {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_fg {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 5px;
+		left: 0px;
+		top: 3px;
+	}
+	#Ellipse_2_fh {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_fh {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 4px;
+		left: 0px;
+		top: 24px;
+	}
+	#Ellipse_2_fi {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_fi {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 5px;
+		left: 0px;
+		top: 44px;
+	}
+	#Ellipse_2_fj {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_fj {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 4px;
+		left: 0px;
+		top: 66px;
+	}
+	#Group_26 {
+		position: absolute;
+		width: 117px;
+		height: 73px;
+		left: 222px;
+		top: 690px;
+		overflow: visible;
+	}
+	#Communicating_with_others_fl {
+		left: 9px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 108px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Milestone_based_Curriculum_fm {
+		left: 9px;
+		top: 21px;
+		position: absolute;
+		overflow: visible;
+		width: 109px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Nurturing_Creativity_fn {
+		left: 9px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 79px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Innovative_learning_fo {
+		left: 9px;
+		top: 62px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Ellipse_2_fp {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_fp {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 5px;
+		left: 0px;
+		top: 3px;
+	}
+	#Ellipse_2_fq {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_fq {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 4px;
+		left: 0px;
+		top: 24px;
+	}
+	#Ellipse_2_fr {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_fr {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 5px;
+		left: 0px;
+		top: 44px;
+	}
+	#Ellipse_2_fs {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_fs {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 4px;
+		left: 0px;
+		top: 66px;
+	}
+	#fruit_ft {
+		position: absolute;
+		width: 67px;
+		height: 65px;
+		left: 54px;
+		top: 804px;
+		overflow: visible;
+	}
+	#NoPath_-_Copy_9_fu {
+		position: absolute;
+		width: 61px;
+		height: 65px;
+		left: 239px;
+		top: 804px;
+		overflow: visible;
+	}
+	#Censory_Based_Food_fv {
+		left: 41px;
+		top: 874px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Highest_level_Safety_fw {
+		left: 222px;
+		top: 874px;
+		position: absolute;
+		overflow: visible;
+		width: 86px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_27 {
+		position: absolute;
+		width: 115px;
+		height: 73px;
+		left: 43px;
+		top: 893px;
+		overflow: visible;
+	}
+	#Age-Approprite_fy {
+		left: 8px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Nutritionist_Certified_Menu_fz {
+		left: 8px;
+		top: 21px;
+		position: absolute;
+		overflow: visible;
+		width: 105px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Total_Health__Hygiene_Care_f {
+		left: 8px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 108px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Child_Friendly_Facilities_f {
+		left: 8px;
+		top: 62px;
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Ellipse_2_f {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_f {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 5px;
+		left: 0px;
+		top: 3px;
+	}
+	#Ellipse_2_ga {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_ga {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 4px;
+		left: 0px;
+		top: 24px;
+	}
+	#Ellipse_2_gb {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_gb {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 5px;
+		left: 0px;
+		top: 44px;
+	}
+	#Ellipse_2_gc {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_gc {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 4px;
+		left: 0px;
+		top: 66px;
+	}
+	#Group_28 {
+		position: absolute;
+		width: 109px;
+		height: 73px;
+		left: 225px;
+		top: 899px;
+		overflow: visible;
+	}
+	#ID247__365_days_open_f {
+		left: 8px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 84px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#ID247_monitoring_f {
+		left: 8px;
+		top: 21px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Experienced_trained_team_f {
+		left: 8px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 102px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Pleasant_Staff_ga {
+		left: 8px;
+		top: 62px;
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(36,160,237,1);
+	}
+	#Ellipse_2_gd {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_gd {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 4px;
+		left: 0px;
+		top: 3px;
+	}
+	#Ellipse_2_ge {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_ge {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 4px;
+		left: 0px;
+		top: 24px;
+	}
+	#Ellipse_2_gf {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_gf {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 4px;
+		left: 0px;
+		top: 44px;
+	}
+	#Ellipse_2_gg {
+		fill: rgba(0,119,255,1);
+	}
+	.Ellipse_2_gg {
+		position: absolute;
+		overflow: visible;
+		width: 4px;
+		height: 5px;
+		left: 0px;
+		top: 65px;
+	}
+	#Group_83 {
+		position: absolute;
+		width: 375px;
+		height: 642px;
+		left: 0px;
+		top: 1019px;
+		overflow: visible;
+	}
+	#mobaboutsection {
+		position: absolute;
+		width: 375px;
+		height: 642px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_92 {
+		fill: rgba(148,155,243,1);
+	}
+	.Rectangle_92 {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 46px;
+		left: 46px;
+		top: 279px;
+	}
+	#db9c6e_042483b4abe748deba5115c_gi {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 239px;
+		height: 260px;
+		left: 68px;
+		top: 42px;
+		overflow: visible;
+	}
+	#Well_begun_is_half_done_Major__gj {
+		left: 20px;
+		top: 391px;
+		position: absolute;
+		overflow: visible;
+		width: 315px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(4,191,222,1);
+	}
+	#Life_Begins_Here_gk {
+		left: 20px;
+		top: 512px;
+		position: absolute;
+		overflow: visible;
+		width: 149px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(10,11,7,1);
+	}
+	#The_Best_Playschool_in_Country_gl {
+		filter: drop-shadow(0px 3px 6px rgba(46, 35, 131, 0.369));
+		left: 18px;
+		top: 352px;
+		position: absolute;
+		overflow: visible;
+		width: 251px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 19px;
+		color: rgba(46,35,131,1);
+	}
+	#Group_84 {
+		position: absolute;
+		width: 375px;
+		height: 315px;
+		left: 0px;
+		top: 1671px;
+		overflow: visible;
+	}
+	#ID2723394_gn {
+		position: absolute;
+		width: 375px;
+		height: 315px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Why_KRIO__go {
+		left: 18px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 94px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(10,11,7,1);
+	}
+	#Team_KRIO_in_their_past_experi_gp {
+		left: 18px;
+		top: 95px;
+		position: absolute;
+		overflow: visible;
+		width: 275px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(4,191,222,1);
+	}
+	#Group_85 {
+		position: absolute;
+		width: 375px;
+		height: 324px;
+		left: 0px;
+		top: 1999px;
+		overflow: visible;
+	}
+	#ID2723385_gr {
+		position: absolute;
+		width: 375px;
+		height: 324px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Team_KRIO_is_devoted_to_delive_gs {
+		left: 63px;
+		top: 122px;
+		position: absolute;
+		overflow: visible;
+		width: 251px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(222,178,4,1);
+	}
+	#Group_86 {
+		position: absolute;
+		width: 472px;
+		height: 425px;
+		left: -97px;
+		top: 2334px;
+		overflow: visible;
+	}
+	#ID3969643_gu {
+		position: absolute;
+		width: 472px;
+		height: 425px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Sensory_Based_Food_gv {
+		left: 136px;
+		top: 19px;
+		position: absolute;
+		overflow: visible;
+		width: 172px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(72,166,200,1);
+		text-decoration: underline;
+	}
+	#Rectangle_93 {
+		filter: blur(30px);
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_93 {
+		position: absolute;
+		overflow: visible;
+		width: 213px;
+		height: 341px;
+		left: 115px;
+		top: 59px;
+	}
+	#Encouraging_children_to_have_a_gx {
+		left: 121px;
+		top: 67px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		height: 325px;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(26,118,133,1);
+	}
+	#Rectangle_94 {
+		position: absolute;
+		width: 258px;
+		height: 213px;
+		left: 67px;
+		top: 2805px;
+		overflow: visible;
+	}
+	#Icon_material-location-on_gz {
+		fill: rgba(254,0,135,1);
+	}
+	.Icon_material-location-on_gz {
+		overflow: visible;
+		position: absolute;
+		width: 10.966px;
+		height: 16.784px;
+		left: 154.553px;
+		top: 3031.862px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID1_Krio_Educare_PvtLtd_Anand__g {
+		left: 76px;
+		top: 3060px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(102,102,102,1);
+	}
+	#ID2_Krio_Educare_Pvt_Ltd_A1_Pr_g {
+		left: 207px;
+		top: 3055px;
+		position: absolute;
+		overflow: visible;
+		width: 93px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(102,102,102,1);
+	}
+	#Branches_g {
+		left: 172px;
+		top: 3036px;
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(254,0,135,1);
+		text-decoration: underline;
+	}
+	#Find__the_RIGHT_Preschool_Dayc_g {
+		left: 54px;
+		top: 3129px;
+		position: absolute;
+		overflow: visible;
+		width: 269px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Bubblegum Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Home_g {
+		opacity: 0.9;
+		left: 18px;
+		top: 3646px;
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#About_g {
+		left: 64px;
+		top: 3646px;
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Programs_g {
+		left: 112px;
+		top: 3646px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Corporate_Daycare_g {
+		left: 178px;
+		top: 3646px;
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Gallery_g {
+		left: 265px;
+		top: 3646px;
+		position: absolute;
+		overflow: visible;
+		width: 24px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Contact_us_g {
+		left: 319px;
+		top: 3646px;
+		position: absolute;
+		overflow: visible;
+		width: 37px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Icon_material-email_ha {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_material-email_ha {
+		overflow: visible;
+		position: absolute;
+		width: 17.095px;
+		height: 14.652px;
+		left: 40px;
+		top: 3716px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#abcgmailcom_hb {
+		left: 67px;
+		top: 3716px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(255,255,255,1);
+	}
+	#ID8008893769_hc {
+		left: 263.547px;
+		top: 3716px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Icon_awesome-phone-alt_hd {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-phone-alt_hd {
+		overflow: visible;
+		position: absolute;
+		width: 9.566px;
+		height: 10.248px;
+		left: 247.286px;
+		top: 3718px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_krio_-_2020_he {
+		left: 169px;
+		top: 3737px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(255,255,255,1);
+	}
+	#mobform {
+		fill: rgba(255,255,255,1);
+	}
+	.mobform {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.451));
+		position: absolute;
+		overflow: visible;
+		width: 265px;
+		height: 431px;
+		left: 64px;
+		top: 3166px;
+	}
+	#Enquire_Now__hg {
+		left: 142px;
+		top: 3180px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bubblegum Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_51 {
+		position: absolute;
+		width: 189px;
+		height: 354px;
+		left: 93px;
+		top: 3209px;
+		overflow: visible;
+	}
+	#Rectangle_29_hi {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 189px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		border:  1px solid #ccc;
+		fill:  rgba(220,220,220);
+		padding-left:  20px;
+		border-radius:  10px;
+	}
+	#Rectangle_29_hj {
+		fill: rgba(245,245,245,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_29_hj {
+		position: absolute;
+		overflow: visible;
+		width: 189px;
+		height: 38px;
+		left: 0px;
+		top: 51px;
+		border:  1px solid #ccc;
+		fill:  rgba(220,220,220);
+		padding-left:  20px;
+		border-radius:  10px;
+	}
+	#Rectangle_29_hk {
+		fill: rgba(245,245,245,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_29_hk {
+		position: absolute;
+		overflow: visible;
+		width: 189px;
+		height: 39px;
+		left: 0px;
+		top: 102px;
+		border:  1px solid #ccc;
+		fill:  rgba(220,220,220);
+		padding-left:  20px;
+		border-radius:  10px;
+	}
+	#Rectangle_29_hl {
+		fill: rgba(245,245,245,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_29_hl {
+		position: absolute;
+		overflow: visible;
+		width: 189px;
+		height: 38px;
+		left: 0px;
+		top: 154px;
+		border:  1px solid #ccc;
+		fill:  rgba(220,220,220);
+		padding-left:  20px;
+		border-radius:  10px;
+	}
+	#Rectangle_29_hm {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 189px;
+		height: 38px;
+		left: 0px;
+		top: 205px;
+		overflow: visible;
+		border:  1px solid #ccc;
+		fill:  rgba(220,220,220);
+		padding-left:  20px;
+		border-radius:  10px;
+	}
+	#Rectangle_149_hn {
+		fill: rgba(245,245,245,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_149_hn {
+		position: absolute;
+		overflow: visible;
+		width: 189px;
+		height: 57px;
+		left: 0px;
+		top: 254px;
+		border:  1px solid #ccc;
+		fill:  rgba(220,220,220);
+		padding-left:  20px;
+		border-radius:  10px;
+	}
+	#Rectangle_30_ho {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 171px;
+		height: 37px;
+		left: 9px;
+		top: 317px;
+		overflow: visible;
+		background-color:  rgba(35,0,255);
+		border-radius:  100px;
+		color: white;
+	}
+}

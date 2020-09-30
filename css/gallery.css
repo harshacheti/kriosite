@@ -1,0 +1,720 @@
+:root {
+	--web-view-ids: gallery,mobgallery;
+	--web-view-name: gallery;
+	--web-view-id: gallery;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: false;
+	--web-scale-on-double-click: false;
+	--web-center-horizontally: true;
+	--web-center-vertically: false;
+	--web-actual-size-on-double-click: false;
+	--web-navigate-on-keypress: false;
+	--web-refresh-for-changes: false;
+	--web-add-image-compare: false;
+	--web-show-by-media-query: true;
+	--web-application: false;
+	--web-show-navigation-controls: false;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: false;
+}
+#gallery,
+#mobgallery {
+	display: none;
+}
+@media (min-width: 1366px) {
+	.mediaViewInfo {
+		--web-view-name: gallery;
+		--web-view-id: gallery;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#gallery {
+		position: absolute;
+		display: block;
+		width: 1366px;
+		height: 3884px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: gallery;
+		--web-view-id: gallery;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#Path_49_ {
+		fill: url(#Path_49_);
+	}
+	.Path_49_ {
+		overflow: visible;
+		position: absolute;
+		width: 1366px;
+		height: 316px;
+		left: 0px;
+		top: 3568px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Home_ {
+		left: 555px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#About {
+		left: 657px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Locate_us {
+		left: 1249px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 54px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(57,49,134,1);
+	}
+	#Corporate_Childcare {
+		left: 922px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 125px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Programs_Offered {
+		left: 759px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 113px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Icon_awesome-facebook-square {
+		fill: rgba(57,49,134,1);
+	}
+	.Icon_awesome-facebook-square {
+		overflow: visible;
+		position: absolute;
+		width: 10.875px;
+		height: 10.875px;
+		left: 1213.125px;
+		top: 10.25px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Gallery_ {
+		left: 1097px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(254,12,152,1);
+	}
+	#Contact_us {
+		left: 1206px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ID8008893769 {
+		left: 1087.226px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 84px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(57,49,134,1);
+	}
+	#Icon_awesome-phone-alt {
+		fill: rgba(57,49,134,1);
+	}
+	.Icon_awesome-phone-alt {
+		overflow: visible;
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		left: 1070.226px;
+		top: 11px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_material-email {
+		fill: rgba(57,49,134,1);
+	}
+	.Icon_material-email {
+		overflow: visible;
+		position: absolute;
+		width: 12.5px;
+		height: 10px;
+		left: 1190.226px;
+		top: 11px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_material-location-on {
+		fill: rgba(57,49,134,1);
+	}
+	.Icon_material-location-on {
+		overflow: visible;
+		position: absolute;
+		width: 8.274px;
+		height: 11.437px;
+		left: 1238.188px;
+		top: 9.687px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Krio_Gallery {
+		left: 509px;
+		top: 117px;
+		position: absolute;
+		overflow: visible;
+		width: 350px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 68px;
+		color: rgba(254,12,152,1);
+	}
+	#Line_15 {
+		fill: transparent;
+		stroke: rgba(254,12,152,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_15 {
+		overflow: visible;
+		position: absolute;
+		width: 22px;
+		height: 2px;
+		left: 1116.5px;
+		top: 71px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#final_KRIO_logo {
+		position: absolute;
+		width: 222px;
+		height: 57px;
+		left: 115px;
+		top: 3676px;
+		overflow: visible;
+	}
+	#Icon_material-email_bg {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_material-email_bg {
+		overflow: visible;
+		position: absolute;
+		width: 29.104px;
+		height: 23.283px;
+		left: 1068.226px;
+		top: 3746px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_krio_-_2020 {
+		left: 169px;
+		top: 3777px;
+		position: absolute;
+		overflow: visible;
+		width: 116px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#abcgmailcom {
+		left: 1115px;
+		top: 3745px;
+		position: absolute;
+		overflow: visible;
+		width: 136px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#ID8008893769_bj {
+		left: 1108.127px;
+		top: 3791px;
+		position: absolute;
+		overflow: visible;
+		width: 143px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#Icon_awesome-phone-alt_bk {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-phone-alt_bk {
+		overflow: visible;
+		position: absolute;
+		width: 18.178px;
+		height: 18.177px;
+		left: 1077.226px;
+		top: 3796.453px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Home_bl {
+		left: 383px;
+		top: 3696px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#About_bm {
+		left: 468px;
+		top: 3696px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Programs {
+		left: 553px;
+		top: 3696px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Corporate_Daycare {
+		left: 673px;
+		top: 3696px;
+		position: absolute;
+		overflow: visible;
+		width: 117px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Gallery_bp {
+		left: 828px;
+		top: 3696px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Contact_us_bq {
+		left: 925px;
+		top: 3696px;
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Desgined_by_Hava {
+		left: 1168px;
+		top: 3838px;
+		position: absolute;
+		overflow: visible;
+		width: 83px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Poor Richard;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+		text-decoration: underline;
+	}
+	#final_KRIO_logo_bs {
+		position: absolute;
+		width: 265px;
+		height: 77px;
+		left: 90px;
+		top: 27px;
+		overflow: visible;
+	}
+}
+@media (min-width: 0px) and (max-width: 1365px) {
+	.mediaViewInfo {
+		--web-view-name: mobgallery;
+		--web-view-id: mobgallery;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#mobgallery {
+		position: absolute;
+		display: block;
+		width: 375px;
+		height: 1550px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: mobgallery;
+		--web-view-id: mobgallery;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#Icon_ionic-ios-menu {
+		position: absolute;
+		width: 18.225px;
+		height: 16.333px;
+		left: 18px;
+		top: 18.667px;
+		overflow: visible;
+	}
+	#Path_23 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_23 {
+		overflow: visible;
+		position: absolute;
+		width: 18.225px;
+		height: 2.333px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_24 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_24 {
+		overflow: visible;
+		position: absolute;
+		width: 18.225px;
+		height: 2.333px;
+		left: 0px;
+		top: 7px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_25 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_25 {
+		overflow: visible;
+		position: absolute;
+		width: 18.225px;
+		height: 2.333px;
+		left: 0px;
+		top: 14px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#final_KRIO_logo_bz {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 140px;
+		height: 36px;
+		left: 118px;
+		top: 13px;
+		overflow: visible;
+	}
+	#Rectangle_155_b {
+		fill: url(#Rectangle_155_b);
+	}
+	.Rectangle_155_b {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 165px;
+		left: 0px;
+		top: 1389px;
+	}
+	#final_KRIO_logo_b {
+		position: absolute;
+		width: 125px;
+		height: 34px;
+		left: 127px;
+		top: 1466px;
+		overflow: visible;
+	}
+	#Home_b {
+		opacity: 0.9;
+		left: 18px;
+		top: 1439px;
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#About_b {
+		left: 64px;
+		top: 1439px;
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Programs_b {
+		left: 112px;
+		top: 1439px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Corporate_Daycare_b {
+		left: 178px;
+		top: 1439px;
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Gallery_b {
+		left: 265px;
+		top: 1439px;
+		position: absolute;
+		overflow: visible;
+		width: 24px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Contact_us_b {
+		left: 319px;
+		top: 1439px;
+		position: absolute;
+		overflow: visible;
+		width: 37px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Icon_material-email_b {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_material-email_b {
+		overflow: visible;
+		position: absolute;
+		width: 17.095px;
+		height: 14.652px;
+		left: 40px;
+		top: 1509px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#abcgmailcom_ca {
+		left: 67px;
+		top: 1509px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(255,255,255,1);
+	}
+	#ID8008893769_cb {
+		left: 263.547px;
+		top: 1509px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Icon_awesome-phone-alt_cc {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-phone-alt_cc {
+		overflow: visible;
+		position: absolute;
+		width: 9.565px;
+		height: 10.248px;
+		left: 247.286px;
+		top: 1511px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_krio_-_2020_cd {
+		left: 169px;
+		top: 1530px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(255,255,255,1);
+	}
+	#Krio_Gallery_ce {
+		left: 131px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 114px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(254,12,152,1);
+	}
+}

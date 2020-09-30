@@ -1,0 +1,4658 @@
+:root {
+	--web-view-ids: programs,mobprograms;
+	--web-view-name: programs;
+	--web-view-id: programs;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: false;
+	--web-scale-on-double-click: false;
+	--web-center-horizontally: true;
+	--web-center-vertically: false;
+	--web-actual-size-on-double-click: false;
+	--web-navigate-on-keypress: false;
+	--web-refresh-for-changes: false;
+	--web-add-image-compare: false;
+	--web-show-by-media-query: true;
+	--web-application: false;
+	--web-show-navigation-controls: false;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: false;
+}
+#programs,
+#mobprograms {
+	display: none;
+}
+@media (min-width: 1366px) {
+	.mediaViewInfo {
+		--web-view-name: programs;
+		--web-view-id: programs;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#programs {
+		position: absolute;
+		display: block;
+		width: 1366px;
+		height: 8321px;
+		background-color: rgba(247,247,247,1);
+		overflow: hidden;
+		--web-view-name: programs;
+		--web-view-id: programs;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#Group_67 {
+		position: absolute;
+		width: 1366px;
+		height: 729px;
+		left: 0px;
+		top: 7371px;
+		overflow: visible;
+	}
+	#ID2723394 {
+		fill: rgba(226,226,226,1);
+	}
+	.ID2723394 {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 729px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_55 {
+		position: absolute;
+		width: 547px;
+		height: 501px;
+		left: 729px;
+		top: 25px;
+		overflow: visible;
+	}
+	#Off_Site_exclusivenonexclusive {
+		left: 91px;
+		top: 109px;
+		position: absolute;
+		overflow: visible;
+		width: 593px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Off_Site_exclusivenonexclusive_ {
+		left: 90px;
+		top: 18px;
+		position: absolute;
+		overflow: visible;
+		width: 460px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(239,127,26,1);
+		text-decoration: underline;
+	}
+	#Path_48_ {
+		fill: url(#Path_48_);
+	}
+	.Path_48_ {
+		overflow: visible;
+		position: absolute;
+		width: 1366px;
+		height: 316px;
+		left: 0px;
+		top: 8008px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_6 {
+		fill: transparent;
+	}
+	.Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 90px;
+		left: 0px;
+		top: 0px;
+	}
+	#Home_ {
+		left: 555px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#About {
+		left: 657px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Locate_us {
+		left: 1249px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 54px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(57,49,134,1);
+	}
+	#Corporate_Childcare {
+		left: 922px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 125px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Programs_Offered {
+		left: 759px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 113px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(254,12,152,1);
+	}
+	#Icon_awesome-facebook-square {
+		fill: rgba(57,49,134,1);
+	}
+	.Icon_awesome-facebook-square {
+		overflow: visible;
+		position: absolute;
+		width: 10.875px;
+		height: 10.875px;
+		left: 1213.125px;
+		top: 10.25px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Gallery_bb {
+		left: 1097px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Contact_us {
+		left: 1206px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ID8008893769 {
+		left: 1087.226px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 84px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(57,49,134,1);
+	}
+	#Icon_awesome-phone-alt {
+		fill: rgba(57,49,134,1);
+	}
+	.Icon_awesome-phone-alt {
+		overflow: visible;
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		left: 1070.226px;
+		top: 11px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_material-email {
+		fill: rgba(57,49,134,1);
+	}
+	.Icon_material-email {
+		overflow: visible;
+		position: absolute;
+		width: 12.5px;
+		height: 10px;
+		left: 1190.226px;
+		top: 11px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#NoPath_-_Copy_10 {
+		display: none;
+		position: absolute;
+		width: 1366px;
+		height: 768px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Professional__Quality_Childcar {
+		left: 90px;
+		top: 149px;
+		position: absolute;
+		overflow: visible;
+		width: 267px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(57,49,134,1);
+	}
+	#Group_54 {
+		position: absolute;
+		width: 236px;
+		height: 65px;
+		left: 90px;
+		top: 563px;
+		overflow: visible;
+	}
+	#Rectangle_21 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_21 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.478));
+		position: absolute;
+		overflow: visible;
+		width: 254px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+	}
+	#Explore_more {
+		left: 51px;
+		top: 15px;
+		position: absolute;
+		overflow: visible;
+		width: 135px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(0,213,249,1);
+	}
+	#Group_55 {
+		position: absolute;
+		width: 236px;
+		height: 65px;
+		left: 350px;
+		top: 563px;
+		overflow: visible;
+	}
+	#Rectangle_31 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(36,160,237,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_31 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.478));
+		position: absolute;
+		overflow: visible;
+		width: 254px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+	}
+	#Enquire_now {
+		left: 55px;
+		top: 15px;
+		position: absolute;
+		overflow: visible;
+		width: 127px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(36,160,237,1);
+	}
+	#Rectangle_22 {
+		opacity: 0;
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_22 {
+		position: absolute;
+		overflow: visible;
+		width: 376px;
+		height: 154px;
+		left: 171px;
+		top: 307px;
+	}
+	#KRIO_intends_to_enhance_the_pr {
+		left: 90px;
+		top: 359px;
+		position: absolute;
+		overflow: visible;
+		width: 393px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Our_facility_is_monitored_247_ {
+		left: 699px;
+		top: 1984px;
+		position: absolute;
+		overflow: visible;
+		width: 312px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#KRIO_Educare_is_conceived_with {
+		left: 90px;
+		top: 452px;
+		position: absolute;
+		overflow: visible;
+		width: 358px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Line_2 {
+		fill: transparent;
+		stroke: rgba(254,12,152,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_2 {
+		overflow: visible;
+		position: absolute;
+		width: 22px;
+		height: 2px;
+		left: 804.5px;
+		top: 75px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Line_3 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_3 {
+		overflow: visible;
+		position: absolute;
+		width: 3px;
+		height: 73px;
+		left: 171.5px;
+		top: 695.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Scroll {
+		left: 180px;
+		top: 727px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(36,160,237,1);
+	}
+	#Icon_material-location-on {
+		fill: rgba(57,49,134,1);
+	}
+	.Icon_material-location-on {
+		overflow: visible;
+		position: absolute;
+		width: 8.274px;
+		height: 11.437px;
+		left: 1238.188px;
+		top: 9.687px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#programssec {
+		fill: rgba(148,155,243,1);
+	}
+	.programssec {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 866px;
+		left: 0px;
+		top: 762px;
+	}
+	#Rectangle_36 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_36 {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		position: absolute;
+		overflow: visible;
+		width: 218px;
+		height: 218px;
+		left: 340px;
+		top: 1274px;
+	}
+	#Rectangle_36_by {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_36_by {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		position: absolute;
+		overflow: visible;
+		width: 218px;
+		height: 218px;
+		left: 833px;
+		top: 1274px;
+	}
+	#Path_12 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_12 {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 223.777px;
+		height: 226.938px;
+		left: 94px;
+		top: 1007px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_16 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_16 {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 223.777px;
+		height: 226.938px;
+		left: 573px;
+		top: 1007px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_13 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_13 {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 223.777px;
+		height: 226.938px;
+		left: 337px;
+		top: 959px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_15 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_15 {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 223.777px;
+		height: 226.938px;
+		left: 1070.223px;
+		top: 1007px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_14 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_14 {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 223.777px;
+		height: 226.938px;
+		left: 827px;
+		top: 959px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Subtraction_2 {
+		fill: rgba(0,43,255,0.631);
+	}
+	.Subtraction_2 {
+		overflow: visible;
+		position: absolute;
+		width: 334px;
+		height: 168px;
+		transform: matrix(1,0,0,1,-167,1460) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_36_b {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_36_b {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		position: absolute;
+		overflow: visible;
+		width: 218px;
+		height: 218px;
+		left: 94px;
+		top: 1332px;
+	}
+	#Rectangle_56 {
+		fill: rgba(54,84,250,1);
+	}
+	.Rectangle_56 {
+		width: 215px;
+		height: 215px;
+		position: absolute;
+		overflow: visible;
+		transform: matrix(1,0,0,1,583,1333.9999) rotate(-10deg);
+		transform-origin: center;
+	}
+	#Rectangle_36_ca {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_36_ca {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+		position: absolute;
+		overflow: visible;
+		width: 218px;
+		height: 218px;
+		left: 586px;
+		top: 1332px;
+	}
+	#Rectangle_36_cb {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_36_cb {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		position: absolute;
+		overflow: visible;
+		width: 218px;
+		height: 218px;
+		left: 1078px;
+		top: 1332px;
+	}
+	#ID1 {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.161));
+		left: 94px;
+		top: 979.5px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(0,0,0,1);
+	}
+	#ID6 {
+		left: 94px;
+		top: 1290.5px;
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(0,0,0,1);
+	}
+	#ID7 {
+		left: 340px;
+		top: 1232.5px;
+		position: absolute;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(0,0,0,1);
+	}
+	#ID8 {
+		left: 586px;
+		top: 1290.5px;
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(0,0,0,1);
+	}
+	#ID9 {
+		left: 833px;
+		top: 1232.5px;
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(0,0,0,1);
+	}
+	#ID10 {
+		left: 1078px;
+		top: 1290.5px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(0,0,0,1);
+	}
+	#ID2 {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.157));
+		left: 340px;
+		top: 916.5px;
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(0,0,0,1);
+	}
+	#ID3 {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.161));
+		left: 586px;
+		top: 974.5px;
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(0,0,0,1);
+	}
+	#ID4 {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.157));
+		left: 833px;
+		top: 916.5px;
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(0,0,0,1);
+	}
+	#ID5 {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.157));
+		left: 1078px;
+		top: 974.5px;
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(0,0,0,1);
+	}
+	#Path_6 {
+		filter: blur(5px);
+		fill: rgba(0,250,255,1);
+	}
+	.Path_6 {
+		overflow: visible;
+		position: absolute;
+		width: 774.106px;
+		height: 469.511px;
+		left: 598.894px;
+		top: 188.423px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_4 {
+		fill: rgba(137,249,251,1);
+	}
+	.Path_4 {
+		overflow: visible;
+		position: absolute;
+		width: 744.106px;
+		height: 439.511px;
+		left: 598.894px;
+		top: 188.423px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Programs_Offered_by__KRIO {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		left: 90px;
+		top: 199px;
+		position: absolute;
+		overflow: visible;
+		width: 425px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 48px;
+		color: rgba(254,33,161,1);
+	}
+	#Rectangle_37 {
+		position: absolute;
+		width: 614px;
+		height: 368px;
+		left: 683px;
+		top: 241px;
+		overflow: visible;
+	}
+	#Rectangle_38 {
+		fill: rgba(159,179,243,0.188);
+	}
+	.Rectangle_38 {
+		position: absolute;
+		overflow: visible;
+		width: 614px;
+		height: 368px;
+		left: 683px;
+		top: 241px;
+	}
+	#Group_6 {
+		position: absolute;
+		width: 115.204px;
+		height: 72.467px;
+		left: 926px;
+		top: 389px;
+		overflow: visible;
+	}
+	#Path_5 {
+		fill: rgba(0,0,0,0.639);
+	}
+	.Path_5 {
+		overflow: visible;
+		position: absolute;
+		width: 115.204px;
+		height: 72.467px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Polygon_1 {
+		fill: rgba(255,255,255,1);
+	}
+	.Polygon_1 {
+		overflow: hidden;
+		position: absolute;
+		width: 37.163px;
+		height: 31.588px;
+		transform: translate(-4847px, -346px) matrix(1,0,0,1,4891.0206,366.4394) rotate(90deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Pngtreecartoon_childrens_toys_ {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.502));
+		position: absolute;
+		width: 153.092px;
+		height: 134.737px;
+		left: 1169.454px;
+		top: 77.631px;
+		overflow: visible;
+	}
+	#Pngtreecartoon_childrens_toys__cs {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.498));
+		position: absolute;
+		width: 153.092px;
+		height: 134.737px;
+		left: 522.454px;
+		top: 633.263px;
+		overflow: visible;
+	}
+	#Pngtreecartoon_childrens_toys__ct {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.498));
+		position: absolute;
+		width: 153.092px;
+		height: 134.737px;
+		left: -39.546px;
+		top: 657.263px;
+		overflow: visible;
+	}
+	#Pngtreecartoon_childrens_toys__cu {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.498));
+		position: absolute;
+		width: 171.294px;
+		height: 135.929px;
+		left: 391.716px;
+		top: 52.446px;
+		overflow: visible;
+	}
+	#Pngtreecartoon_childrens_toys__cv {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.498));
+		position: absolute;
+		width: 153.092px;
+		height: 134.737px;
+		left: 1169.454px;
+		top: 633.263px;
+		overflow: visible;
+	}
+	#KRIO_-_Programs_ {
+		left: 762px;
+		top: 271px;
+		position: absolute;
+		overflow: visible;
+		width: 218px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#Exclusive_Programs {
+		left: 90px;
+		top: 841px;
+		position: absolute;
+		overflow: visible;
+		width: 289px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(255,255,255,1);
+	}
+	#_More {
+		left: 1144px;
+		top: 1566px;
+		position: absolute;
+		overflow: visible;
+		width: 135px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(42,0,255,1);
+		text-decoration: underline;
+	}
+	#_More_cz {
+		left: 1144px;
+		top: 1566px;
+		position: absolute;
+		overflow: visible;
+		width: 135px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(255,255,255,1);
+		text-decoration: underline;
+	}
+	#Child_care {
+		left: 143px;
+		top: 1097px;
+		position: absolute;
+		overflow: visible;
+		width: 109px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Infant_Care {
+		left: 381px;
+		top: 1049px;
+		position: absolute;
+		overflow: visible;
+		width: 119px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Residential__Care_ {
+		left: 378px;
+		top: 1344px;
+		position: absolute;
+		overflow: visible;
+		width: 125px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Mee_Time_Care_ {
+		left: 115px;
+		top: 1417px;
+		position: absolute;
+		overflow: visible;
+		width: 159px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Waddler____Toddler_Care {
+		left: 621px;
+		top: 1086px;
+		position: absolute;
+		overflow: visible;
+		width: 131px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Preschool {
+		left: 635px;
+		top: 1417px;
+		position: absolute;
+		overflow: visible;
+		width: 103px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#After_School__Care_ {
+		left: 866px;
+		top: 1043px;
+		position: absolute;
+		overflow: visible;
+		width: 135px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Holiday_Camps_ {
+		left: 853px;
+		top: 1359px;
+		position: absolute;
+		overflow: visible;
+		width: 161px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Ad_hoc_care_ {
+		left: 1112px;
+		top: 1101px;
+		position: absolute;
+		overflow: visible;
+		width: 133px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Corporate__Child_care {
+		left: 1123px;
+		top: 1402px;
+		position: absolute;
+		overflow: visible;
+		width: 111px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Group_7 {
+		position: absolute;
+		width: 69.356px;
+		height: 17px;
+		left: 216px;
+		top: 1183px;
+		overflow: visible;
+	}
+	#See_more {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right {
+		overflow: visible;
+		position: absolute;
+		width: 10.356px;
+		height: 10.093px;
+		left: 59px;
+		top: 5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_12 {
+		position: absolute;
+		width: 69.356px;
+		height: 17px;
+		left: 216px;
+		top: 1498px;
+		overflow: visible;
+	}
+	#See_more_de {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_df {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_df {
+		overflow: visible;
+		position: absolute;
+		width: 10.356px;
+		height: 10.093px;
+		left: 59px;
+		top: 5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_13 {
+		position: absolute;
+		width: 69.356px;
+		height: 17px;
+		left: 454px;
+		top: 1443px;
+		overflow: visible;
+	}
+	#See_more_dh {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_di {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_di {
+		overflow: visible;
+		position: absolute;
+		width: 10.356px;
+		height: 10.093px;
+		left: 59px;
+		top: 5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_14 {
+		position: absolute;
+		width: 69.356px;
+		height: 17px;
+		left: 698px;
+		top: 1498px;
+		overflow: visible;
+	}
+	#See_more_dk {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_dl {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_dl {
+		overflow: visible;
+		position: absolute;
+		width: 10.356px;
+		height: 10.093px;
+		left: 59px;
+		top: 5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_15 {
+		position: absolute;
+		width: 69.356px;
+		height: 17px;
+		left: 951px;
+		top: 1443px;
+		overflow: visible;
+	}
+	#See_more_dn {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_do {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_do {
+		overflow: visible;
+		position: absolute;
+		width: 10.355px;
+		height: 10.093px;
+		left: 59px;
+		top: 5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_16 {
+		position: absolute;
+		width: 69.356px;
+		height: 17px;
+		left: 1191px;
+		top: 1498px;
+		overflow: visible;
+	}
+	#See_more_dq {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_dr {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_dr {
+		overflow: visible;
+		position: absolute;
+		width: 10.355px;
+		height: 10.093px;
+		left: 59px;
+		top: 5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_8 {
+		position: absolute;
+		width: 69.356px;
+		height: 17px;
+		left: 454px;
+		top: 1138px;
+		overflow: visible;
+	}
+	#See_more_dt {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_du {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_du {
+		overflow: visible;
+		position: absolute;
+		width: 10.356px;
+		height: 10.093px;
+		left: 59px;
+		top: 5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_9 {
+		position: absolute;
+		width: 69.356px;
+		height: 17px;
+		left: 691px;
+		top: 1183px;
+		overflow: visible;
+	}
+	#See_more_dw {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_dx {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_dx {
+		overflow: visible;
+		position: absolute;
+		width: 10.356px;
+		height: 10.093px;
+		left: 59px;
+		top: 5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_10 {
+		position: absolute;
+		width: 69.356px;
+		height: 17px;
+		left: 944px;
+		top: 1138px;
+		overflow: visible;
+	}
+	#See_more_dz {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_d {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_d {
+		overflow: visible;
+		position: absolute;
+		width: 10.355px;
+		height: 10.093px;
+		left: 59px;
+		top: 5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_11 {
+		position: absolute;
+		width: 69.356px;
+		height: 17px;
+		left: 1191px;
+		top: 1183px;
+		overflow: visible;
+	}
+	#See_more_d {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_ea {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_ea {
+		overflow: visible;
+		position: absolute;
+		width: 10.355px;
+		height: 10.093px;
+		left: 59px;
+		top: 5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Subtraction_1 {
+		fill: rgba(0,43,255,0.631);
+	}
+	.Subtraction_1 {
+		overflow: visible;
+		position: absolute;
+		width: 334px;
+		height: 168px;
+		left: 1199px;
+		top: 762px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ezgifcom-gif-maker {
+		position: absolute;
+		width: 278px;
+		height: 89px;
+		left: 149px;
+		top: 8115px;
+		overflow: visible;
+	}
+	#Icon_material-email_d {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_material-email_d {
+		overflow: visible;
+		position: absolute;
+		width: 29.104px;
+		height: 23.283px;
+		left: 1100.226px;
+		top: 8204px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_krio_-_2020 {
+		left: 202px;
+		top: 8238px;
+		position: absolute;
+		overflow: visible;
+		width: 116px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#abcgmailcom {
+		left: 1147px;
+		top: 8203px;
+		position: absolute;
+		overflow: visible;
+		width: 136px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#ID8008893769_d {
+		left: 1140.127px;
+		top: 8249px;
+		position: absolute;
+		overflow: visible;
+		width: 143px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#Icon_awesome-phone-alt_ea {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-phone-alt_ea {
+		overflow: visible;
+		position: absolute;
+		width: 18.177px;
+		height: 18.178px;
+		left: 1109.226px;
+		top: 8254.453px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Home_eb {
+		left: 415px;
+		top: 8154px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#About_ec {
+		left: 500px;
+		top: 8154px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Corporate_Daycare {
+		left: 705px;
+		top: 8154px;
+		position: absolute;
+		overflow: visible;
+		width: 117px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Gallery_ee {
+		left: 860px;
+		top: 8154px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Contact_us_ef {
+		left: 957px;
+		top: 8154px;
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Polygon_2 {
+		fill: rgba(0,57,240,1);
+	}
+	.Polygon_2 {
+		overflow: hidden;
+		position: absolute;
+		width: 185px;
+		height: 154px;
+		transform: matrix(1,0,0,1,-85.7134,1153) rotate(-37deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_56 {
+		position: absolute;
+		width: 1210.057px;
+		height: 501.245px;
+		left: 90px;
+		top: 1653.755px;
+		overflow: visible;
+	}
+	#ezgifcom-gif-maker_ei {
+		opacity: 0.15;
+		position: absolute;
+		width: 200px;
+		height: 473px;
+		left: 1010.057px;
+		top: 0px;
+		overflow: visible;
+	}
+	#At_krio_with_our_precise_under {
+		left: 609px;
+		top: 180.245px;
+		position: absolute;
+		overflow: visible;
+		width: 402px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Child_care_ek {
+		left: 609px;
+		top: 72.245px;
+		position: absolute;
+		overflow: visible;
+		width: 149px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(0,160,227,1);
+		text-decoration: underline;
+	}
+	#ID247_care_day__night_care {
+		left: 608px;
+		top: 126.245px;
+		position: absolute;
+		overflow: visible;
+		width: 287px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+	}
+	#childcaresec {
+		position: absolute;
+		width: 547px;
+		height: 501px;
+		left: 0px;
+		top: 0.245px;
+		overflow: visible;
+	}
+	#Group_58 {
+		position: absolute;
+		width: 1153px;
+		height: 501px;
+		left: 90px;
+		top: 2688px;
+		overflow: visible;
+	}
+	#At_Krio_we_provide_waddlers__t {
+		left: 609px;
+		top: 148px;
+		position: absolute;
+		overflow: visible;
+		width: 545px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Our_facility_is_monitored_247__ep {
+		left: 608px;
+		top: 373px;
+		position: absolute;
+		overflow: visible;
+		width: 312px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(239,127,26,1);
+	}
+	#Waddler___Toddler_Care_ {
+		left: 608px;
+		top: 28px;
+		position: absolute;
+		overflow: visible;
+		width: 363px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(239,127,26,1);
+		text-decoration: underline;
+	}
+	#ID13_months_to_26_years_ {
+		left: 608px;
+		top: 90px;
+		position: absolute;
+		overflow: visible;
+		width: 255px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+	}
+	#waddlersec {
+		position: absolute;
+		width: 547px;
+		height: 501px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_57 {
+		position: absolute;
+		width: 1366px;
+		height: 501px;
+		left: 0px;
+		top: 2167px;
+		overflow: visible;
+	}
+	#infantcaresec {
+		fill: rgba(226,226,226,1);
+	}
+	.infantcaresec {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 501px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_43 {
+		position: absolute;
+		width: 547px;
+		height: 501px;
+		left: 729px;
+		top: 0px;
+		overflow: visible;
+	}
+	#At_krio_we_take_extra_care_to_ {
+		left: 127px;
+		top: 142px;
+		position: absolute;
+		overflow: visible;
+		width: 541px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Our_Infant_care_program_is_des {
+		left: 120.5px;
+		top: 411px;
+		position: absolute;
+		overflow: visible;
+		width: 543px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(57,49,133,1);
+	}
+	#Infant_Care_ {
+		left: 129px;
+		top: 38px;
+		position: absolute;
+		overflow: visible;
+		width: 174px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(57,49,133,1);
+		text-decoration: underline;
+	}
+	#ID6_to_12_months_ {
+		left: 127px;
+		top: 92px;
+		position: absolute;
+		overflow: visible;
+		width: 175px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_63 {
+		position: absolute;
+		width: 1366px;
+		height: 501px;
+		left: 0px;
+		top: 5293px;
+		overflow: visible;
+	}
+	#preschoolsec {
+		fill: rgba(226,226,226,1);
+	}
+	.preschoolsec {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 501px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_51 {
+		position: absolute;
+		width: 547px;
+		height: 501px;
+		left: 729px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Krio_offers_age-appropriate_ch {
+		left: 90px;
+		top: 100px;
+		position: absolute;
+		overflow: visible;
+		width: 616px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Preschool_e {
+		left: 90px;
+		top: 46px;
+		position: absolute;
+		overflow: visible;
+		width: 147px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(0,160,227,1);
+		text-decoration: underline;
+	}
+	#Group_65 {
+		position: absolute;
+		width: 1366px;
+		height: 501px;
+		left: 0px;
+		top: 6335px;
+		overflow: visible;
+	}
+	#corporatesec {
+		fill: rgba(226,226,226,1);
+	}
+	.corporatesec {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 501px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_53 {
+		position: absolute;
+		width: 547px;
+		height: 501px;
+		left: 729px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Krios_co-founders_in_their_pas {
+		left: 91px;
+		top: 87px;
+		position: absolute;
+		overflow: visible;
+		width: 608px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Corporate_Child_care {
+		left: 90px;
+		top: 32px;
+		position: absolute;
+		overflow: visible;
+		width: 305px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(229,26,75,1);
+		text-decoration: underline;
+	}
+	#Group_66 {
+		position: absolute;
+		width: 1216px;
+		height: 503px;
+		left: 90px;
+		top: 6856px;
+		overflow: visible;
+	}
+	#Rectangle_54 {
+		position: absolute;
+		width: 547px;
+		height: 501px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Onsite_Childcare__professional {
+		left: 608px;
+		top: 53px;
+		position: absolute;
+		overflow: visible;
+		width: 609px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Onsite_child_care {
+		left: 608px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 249px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(0,160,227,1);
+		text-decoration: underline;
+	}
+	#Group_61 {
+		position: absolute;
+		width: 1366px;
+		height: 501px;
+		left: 0px;
+		top: 4251px;
+		overflow: visible;
+	}
+	#meetimesec {
+		fill: rgba(226,226,226,1);
+	}
+	.meetimesec {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 501px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_47 {
+		position: absolute;
+		width: 547px;
+		height: 501px;
+		left: 729px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Krio_provides_this_uniquely_de {
+		left: 91px;
+		top: 209px;
+		position: absolute;
+		overflow: visible;
+		width: 565px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Mee_Time_Care__fi {
+		left: 90px;
+		top: 93px;
+		position: absolute;
+		overflow: visible;
+		width: 225px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(0,160,227,1);
+		text-decoration: underline;
+	}
+	#under_12_years {
+		left: 90px;
+		top: 148px;
+		position: absolute;
+		overflow: visible;
+		width: 169px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_60 {
+		position: absolute;
+		width: 1087px;
+		height: 501px;
+		left: 90px;
+		top: 3730px;
+		overflow: visible;
+	}
+	#adhocsec {
+		position: absolute;
+		width: 547px;
+		height: 501px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Krio_offers_flexible_daycare_p {
+		left: 609px;
+		top: 209px;
+		position: absolute;
+		overflow: visible;
+		width: 479px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Ad_hoc_care__fn {
+		left: 608px;
+		top: 93px;
+		position: absolute;
+		overflow: visible;
+		width: 179px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(229,26,75,1);
+		text-decoration: underline;
+	}
+	#under_12_years_fo {
+		left: 608px;
+		top: 148px;
+		position: absolute;
+		overflow: visible;
+		width: 169px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_64 {
+		position: absolute;
+		width: 1186px;
+		height: 513.755px;
+		left: 90px;
+		top: 5814px;
+		overflow: visible;
+	}
+	#ezgifcom-gif-maker_fq {
+		opacity: 0.15;
+		position: absolute;
+		width: 138px;
+		height: 205px;
+		left: 1048px;
+		top: 308.755px;
+		overflow: visible;
+	}
+	#holidaysec {
+		position: absolute;
+		width: 547px;
+		height: 501px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Krio_offers_exciting_holiday_c {
+		left: 609px;
+		top: 184px;
+		position: absolute;
+		overflow: visible;
+		width: 577px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Holiday_Camps__ft {
+		left: 608px;
+		top: 68px;
+		position: absolute;
+		overflow: visible;
+		width: 229px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(239,127,26,1);
+		text-decoration: underline;
+	}
+	#under_12_years_fu {
+		left: 608px;
+		top: 123px;
+		position: absolute;
+		overflow: visible;
+		width: 169px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_62 {
+		position: absolute;
+		width: 1197px;
+		height: 518px;
+		left: 90px;
+		top: 4772px;
+		overflow: visible;
+	}
+	#residentialsec {
+		position: absolute;
+		width: 547px;
+		height: 501px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#No_longer_will_your_official_o {
+		left: 609px;
+		top: 118px;
+		position: absolute;
+		overflow: visible;
+		width: 589px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Residential_Care_ {
+		left: 608px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 251px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(42,34,123,1);
+		text-decoration: underline;
+	}
+	#short-time_residential_care__l {
+		left: 608px;
+		top: 57px;
+		position: absolute;
+		overflow: visible;
+		width: 503px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+	}
+	#Polygon_3 {
+		fill: rgba(54,84,250,1);
+	}
+	.Polygon_3 {
+		overflow: hidden;
+		position: absolute;
+		width: 180px;
+		height: 180px;
+		left: 1276px;
+		top: 1174px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Subtraction_3 {
+		fill: rgba(54,84,250,1);
+	}
+	.Subtraction_3 {
+		overflow: visible;
+		position: absolute;
+		width: 141.17px;
+		height: 112.04px;
+		left: -0.17px;
+		top: 762px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_59 {
+		position: absolute;
+		width: 1366px;
+		height: 535.255px;
+		left: 0px;
+		top: 3209px;
+		overflow: visible;
+	}
+	#afterschoolsec {
+		fill: rgba(226,226,226,1);
+	}
+	.afterschoolsec {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 501px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_45 {
+		position: absolute;
+		width: 547px;
+		height: 501px;
+		left: 729px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Krio_provides_comforting_envir {
+		left: 128px;
+		top: 209px;
+		position: absolute;
+		overflow: visible;
+		width: 484px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#After_School_Care_ {
+		left: 127px;
+		top: 93px;
+		position: absolute;
+		overflow: visible;
+		width: 265px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(34,0,255,1);
+		text-decoration: underline;
+	}
+	#under_12_years_f {
+		left: 127px;
+		top: 148px;
+		position: absolute;
+		overflow: visible;
+		width: 169px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+	}
+	#ezgifcom-gif-maker_f {
+		opacity: 0.15;
+		position: absolute;
+		width: 473px;
+		height: 200px;
+		left: 225px;
+		top: 335.255px;
+		overflow: visible;
+	}
+	#Programs_f {
+		left: 587px;
+		top: 8154px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#final_KRIO_logo {
+		position: absolute;
+		width: 265px;
+		height: 77px;
+		left: 90px;
+		top: 13px;
+		overflow: visible;
+	}
+}
+@media (min-width: 0px) and (max-width: 1365px) {
+	.mediaViewInfo {
+		--web-view-name: mobprograms;
+		--web-view-id: mobprograms;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#mobprograms {
+		position: absolute;
+		display: block;
+		width: 375px;
+		height: 6765px;
+		background-color: rgba(247,247,247,1);
+		overflow: hidden;
+		--web-view-name: mobprograms;
+		--web-view-id: mobprograms;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#final_KRIO_logo_gd {
+		position: absolute;
+		width: 125px;
+		height: 34px;
+		left: 125px;
+		top: 13px;
+		overflow: visible;
+	}
+	#Icon_ionic-ios-menu {
+		position: absolute;
+		width: 18.22px;
+		height: 16.333px;
+		left: 18px;
+		top: 18.125px;
+		overflow: visible;
+	}
+	#Path_23 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_23 {
+		overflow: visible;
+		position: absolute;
+		width: 18.22px;
+		height: 2.333px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_24 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_24 {
+		overflow: visible;
+		position: absolute;
+		width: 18.22px;
+		height: 2.333px;
+		left: 0px;
+		top: 7px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_25 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_25 {
+		overflow: visible;
+		position: absolute;
+		width: 18.22px;
+		height: 2.333px;
+		left: 0px;
+		top: 14px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_130_gj {
+		fill: url(#Rectangle_130_gj);
+	}
+	.Rectangle_130_gj {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 165px;
+		left: 0px;
+		top: 6601px;
+	}
+	#final_KRIO_logo_gk {
+		position: absolute;
+		width: 125px;
+		height: 34px;
+		left: 127px;
+		top: 6678px;
+		overflow: visible;
+	}
+	#Home_gl {
+		left: 18px;
+		top: 6651px;
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#About_gm {
+		left: 64px;
+		top: 6651px;
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Locate_Us {
+		left: 112px;
+		top: 6651px;
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Corporate_Daycare_go {
+		left: 178px;
+		top: 6651px;
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Gallery_gp {
+		left: 265px;
+		top: 6651px;
+		position: absolute;
+		overflow: visible;
+		width: 24px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Contact_us_gq {
+		left: 319px;
+		top: 6651px;
+		position: absolute;
+		overflow: visible;
+		width: 37px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Icon_material-email_gr {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_material-email_gr {
+		overflow: visible;
+		position: absolute;
+		width: 17.095px;
+		height: 14.652px;
+		left: 40px;
+		top: 6721px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#abcgmailcom_gs {
+		left: 61px;
+		top: 6722px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(255,255,255,1);
+	}
+	#ID8008893769_gt {
+		left: 265.547px;
+		top: 6721px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Icon_awesome-phone-alt_gu {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-phone-alt_gu {
+		overflow: visible;
+		position: absolute;
+		width: 9.565px;
+		height: 10.248px;
+		left: 252.286px;
+		top: 6723px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_krio_-_2020_gv {
+		left: 156px;
+		top: 6742px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(255,255,255,1);
+	}
+	#Professional__Quality_Childcar_gw {
+		left: 77px;
+		top: 93px;
+		position: absolute;
+		overflow: visible;
+		width: 135px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(57,49,134,1);
+	}
+	#KRIO_intends_to_enhance_the_pr_gx {
+		left: 77px;
+		top: 218px;
+		position: absolute;
+		overflow: visible;
+		width: 175px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(0,0,0,1);
+	}
+	#KRIO_Educare_is_conceived_with_gy {
+		left: 77px;
+		top: 273px;
+		position: absolute;
+		overflow: visible;
+		width: 160px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(0,0,0,1);
+	}
+	#Programs_Offered_by__KRIO_gz {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		left: 77px;
+		top: 122px;
+		position: absolute;
+		overflow: visible;
+		width: 222px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(254,33,161,1);
+	}
+	#Pngtreecartoon_childrens_toys__g {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.498));
+		position: absolute;
+		width: 130.363px;
+		height: 91.963px;
+		left: 3.711px;
+		top: 21.974px;
+		overflow: visible;
+	}
+	#Pngtreecartoon_childrens_toys__ha {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.502));
+		position: absolute;
+		width: 90.158px;
+		height: 79.349px;
+		left: 268.731px;
+		top: 43.718px;
+		overflow: visible;
+	}
+	#Pngtreecartoon_childrens_toys__hb {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.498));
+		position: absolute;
+		width: 90.158px;
+		height: 79.349px;
+		left: 0.736px;
+		top: 301.071px;
+		overflow: visible;
+	}
+	#Path_38 {
+		filter: blur(5px);
+		fill: rgba(0,250,255,1);
+	}
+	.Path_38 {
+		overflow: visible;
+		position: absolute;
+		width: 315.279px;
+		height: 198.502px;
+		left: 44.72px;
+		top: 379.964px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_39 {
+		fill: rgba(137,249,251,1);
+	}
+	.Path_39 {
+		overflow: visible;
+		position: absolute;
+		width: 285.279px;
+		height: 168.502px;
+		left: 44.72px;
+		top: 379.964px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_131 {
+		position: absolute;
+		width: 236px;
+		height: 141px;
+		left: 77px;
+		top: 400px;
+		overflow: visible;
+	}
+	#Rectangle_132 {
+		fill: rgba(159,179,243,0.188);
+	}
+	.Rectangle_132 {
+		position: absolute;
+		overflow: visible;
+		width: 236px;
+		height: 141px;
+		left: 77px;
+		top: 400px;
+	}
+	#Group_40 {
+		position: absolute;
+		width: 44.168px;
+		height: 27.783px;
+		left: 170.128px;
+		top: 456.863px;
+		overflow: visible;
+	}
+	#Path_5_g {
+		fill: rgba(0,0,0,0.639);
+	}
+	.Path_5_g {
+		overflow: visible;
+		position: absolute;
+		width: 44.167px;
+		height: 27.783px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Polygon_1_g {
+		fill: rgba(255,255,255,1);
+	}
+	.Polygon_1_g {
+		overflow: hidden;
+		position: absolute;
+		width: 14.248px;
+		height: 12.11px;
+		transform: translate(0px, 0px) matrix(1,0,0,1,16.8768,7.8362) rotate(90deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#KRIO_-_Programs__ha {
+		left: 108px;
+		top: 412px;
+		position: absolute;
+		overflow: visible;
+		width: 66px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_136 {
+		fill: rgba(148,155,243,1);
+	}
+	.Rectangle_136 {
+		position: absolute;
+		overflow: visible;
+		width: 382px;
+		height: 658px;
+		left: -4px;
+		top: 574px;
+	}
+	#Subtraction_8 {
+		fill: rgba(0,43,255,0.631);
+	}
+	.Subtraction_8 {
+		overflow: visible;
+		position: absolute;
+		width: 196px;
+		height: 99px;
+		transform: matrix(1,0,0,1,-100,1133) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Polygon_9 {
+		fill: rgba(0,57,240,1);
+	}
+	.Polygon_9 {
+		overflow: hidden;
+		position: absolute;
+		width: 108.949px;
+		height: 90.693px;
+		transform: matrix(1,0,0,1,-53.4531,886.4754) rotate(-37deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Subtraction_7 {
+		fill: rgba(54,84,250,1);
+	}
+	.Subtraction_7 {
+		overflow: visible;
+		position: absolute;
+		width: 78.782px;
+		height: 63.465px;
+		left: -0.853px;
+		top: 573.752px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Subtraction_9 {
+		fill: rgba(0,43,255,0.631);
+	}
+	.Subtraction_9 {
+		overflow: visible;
+		position: absolute;
+		width: 196px;
+		height: 99px;
+		left: 278px;
+		top: 575px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Polygon_10 {
+		fill: rgba(54,84,250,1);
+	}
+	.Polygon_10 {
+		overflow: hidden;
+		position: absolute;
+		width: 108px;
+		height: 107px;
+		left: 324px;
+		top: 906px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Exclusive_Programs_hh {
+		left: 112px;
+		top: 605px;
+		position: absolute;
+		overflow: visible;
+		width: 153px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(255,255,255,1);
+	}
+	#Path_42 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_42 {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 105.409px;
+		height: 106.752px;
+		left: 30.383px;
+		top: 682.521px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID1_hj {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.161));
+		left: 30.383px;
+		top: 670.84px;
+		position: absolute;
+		overflow: visible;
+		width: 11px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+	#Child_care_hk {
+		left: 47px;
+		top: 723px;
+		position: absolute;
+		overflow: visible;
+		width: 51px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Group_41 {
+		position: absolute;
+		width: 29.666px;
+		height: 6.694px;
+		left: 82px;
+		top: 757px;
+		overflow: visible;
+	}
+	#See_more_hm {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_hn {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_hn {
+		overflow: visible;
+		position: absolute;
+		width: 4.399px;
+		height: 4.287px;
+		left: 25.267px;
+		top: 2.406px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_43 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_43 {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 99.999px;
+		height: 101.258px;
+		left: 149.488px;
+		top: 687.674px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID2_hp {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.157));
+		left: 150.684px;
+		top: 670.739px;
+		position: absolute;
+		overflow: visible;
+		width: 13px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(0,0,0,1);
+	}
+	#Infant_Care_hq {
+		left: 163px;
+		top: 723px;
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Group_42 {
+		position: absolute;
+		width: 27.748px;
+		height: 6.017px;
+		left: 196px;
+		top: 759px;
+		overflow: visible;
+	}
+	#See_more_hs {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_ht {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_ht {
+		overflow: visible;
+		position: absolute;
+		width: 4.126px;
+		height: 4.022px;
+		left: 23.621px;
+		top: 1.995px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_44 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_44 {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 103.745px;
+		height: 105.062px;
+		left: 261.191px;
+		top: 684.281px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID3_hv {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.161));
+		left: 266.608px;
+		top: 670.739px;
+		position: absolute;
+		overflow: visible;
+		width: 13px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 21px;
+		color: rgba(0,0,0,1);
+	}
+	#Waddler____Toddler_Care_hw {
+		left: 274px;
+		top: 716px;
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Group_43 {
+		position: absolute;
+		width: 29.26px;
+		height: 6.908px;
+		left: 310px;
+		top: 757px;
+		overflow: visible;
+	}
+	#See_more_hy {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_hz {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_hz {
+		overflow: visible;
+		position: absolute;
+		width: 4.315px;
+		height: 4.206px;
+		left: 24.944px;
+		top: 2.702px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_42_h {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_42_h {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 105.409px;
+		height: 106.752px;
+		left: 30.383px;
+		top: 817.521px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID4_h {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.161));
+		left: 28.383px;
+		top: 805.84px;
+		position: absolute;
+		overflow: visible;
+		width: 15px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+	#After_School__Care__h {
+		left: 43px;
+		top: 852px;
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Group_41_h {
+		position: absolute;
+		width: 29.666px;
+		height: 6.694px;
+		left: 82px;
+		top: 892px;
+		overflow: visible;
+	}
+	#See_more_h {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_h {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_h {
+		overflow: visible;
+		position: absolute;
+		width: 4.399px;
+		height: 4.287px;
+		left: 25.267px;
+		top: 2.406px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_43_h {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_43_h {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 99.999px;
+		height: 101.258px;
+		left: 149.488px;
+		top: 822.674px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID5_h {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.157));
+		left: 150.684px;
+		top: 805.739px;
+		position: absolute;
+		overflow: visible;
+		width: 13px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(0,0,0,1);
+	}
+	#Ad_Hoc_Care_ {
+		left: 160px;
+		top: 859px;
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Group_42_h {
+		position: absolute;
+		width: 27.748px;
+		height: 6.017px;
+		left: 196px;
+		top: 894px;
+		overflow: visible;
+	}
+	#See_more_ia {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_ib {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_ib {
+		overflow: visible;
+		position: absolute;
+		width: 4.126px;
+		height: 4.022px;
+		left: 23.621px;
+		top: 1.995px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_44_ic {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_44_ic {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 103.745px;
+		height: 105.062px;
+		left: 261.191px;
+		top: 819.281px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID6_id {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.161));
+		left: 266.608px;
+		top: 805.739px;
+		position: absolute;
+		overflow: visible;
+		width: 13px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 21px;
+		color: rgba(0,0,0,1);
+	}
+	#Mee_Time_Care__ie {
+		left: 268px;
+		top: 859px;
+		position: absolute;
+		overflow: visible;
+		width: 73px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Group_43_if {
+		position: absolute;
+		width: 29.26px;
+		height: 6.908px;
+		left: 310px;
+		top: 892px;
+		overflow: visible;
+	}
+	#See_more_ig {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_ih {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_ih {
+		overflow: visible;
+		position: absolute;
+		width: 4.315px;
+		height: 4.206px;
+		left: 24.944px;
+		top: 2.702px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_42_ii {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_42_ii {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 105.409px;
+		height: 106.752px;
+		left: 30.383px;
+		top: 952.521px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID7_ij {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.161));
+		left: 29.383px;
+		top: 940.84px;
+		position: absolute;
+		overflow: visible;
+		width: 13px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+	#Residential__Care {
+		left: 44px;
+		top: 988px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Group_41_il {
+		position: absolute;
+		width: 29.666px;
+		height: 6.694px;
+		left: 82px;
+		top: 1027px;
+		overflow: visible;
+	}
+	#See_more_im {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_in {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_in {
+		overflow: visible;
+		position: absolute;
+		width: 4.399px;
+		height: 4.287px;
+		left: 25.267px;
+		top: 2.406px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_43_io {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_43_io {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 99.999px;
+		height: 101.258px;
+		left: 149.488px;
+		top: 957.674px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID8_ip {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.157));
+		left: 149.684px;
+		top: 940.739px;
+		position: absolute;
+		overflow: visible;
+		width: 15px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(0,0,0,1);
+	}
+	#Preschool_iq {
+		left: 166px;
+		top: 993px;
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Group_42_ir {
+		position: absolute;
+		width: 27.748px;
+		height: 6.017px;
+		left: 196px;
+		top: 1029px;
+		overflow: visible;
+	}
+	#See_more_is {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_it {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_it {
+		overflow: visible;
+		position: absolute;
+		width: 4.126px;
+		height: 4.022px;
+		left: 23.621px;
+		top: 1.995px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_44_iu {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_44_iu {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 103.745px;
+		height: 105.062px;
+		left: 261.191px;
+		top: 954.281px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID9_iv {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.161));
+		left: 266.608px;
+		top: 940.739px;
+		position: absolute;
+		overflow: visible;
+		width: 13px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 21px;
+		color: rgba(0,0,0,1);
+	}
+	#Holiday_Camps__iw {
+		left: 270px;
+		top: 993px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Group_43_ix {
+		position: absolute;
+		width: 29.26px;
+		height: 6.908px;
+		left: 310px;
+		top: 1027px;
+		overflow: visible;
+	}
+	#See_more_iy {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_iz {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_iz {
+		overflow: visible;
+		position: absolute;
+		width: 4.315px;
+		height: 4.206px;
+		left: 24.944px;
+		top: 2.702px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_42_i {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_42_i {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 105.409px;
+		height: 106.752px;
+		left: 30.383px;
+		top: 1087.521px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID10_i {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.161));
+		left: 23.383px;
+		top: 1075.84px;
+		position: absolute;
+		overflow: visible;
+		width: 25px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+	#Corporate__Child_Care {
+		left: 44px;
+		top: 1124px;
+		position: absolute;
+		overflow: visible;
+		width: 51px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Group_41_i {
+		position: absolute;
+		width: 29.666px;
+		height: 6.694px;
+		left: 82px;
+		top: 1162px;
+		overflow: visible;
+	}
+	#See_more_i {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_i {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_i {
+		overflow: visible;
+		position: absolute;
+		width: 4.399px;
+		height: 4.287px;
+		left: 25.267px;
+		top: 2.406px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_43_i {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_43_i {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 99.999px;
+		height: 101.258px;
+		left: 149.488px;
+		top: 1092.674px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID11 {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.157));
+		left: 146.684px;
+		top: 1075.739px;
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(0,0,0,1);
+	}
+	#Onsite_child__care {
+		left: 159px;
+		top: 1127px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Group_42_i {
+		position: absolute;
+		width: 27.748px;
+		height: 6.017px;
+		left: 196px;
+		top: 1164px;
+		overflow: visible;
+	}
+	#See_more_ja {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_jb {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_jb {
+		overflow: visible;
+		position: absolute;
+		width: 4.126px;
+		height: 4.022px;
+		left: 23.621px;
+		top: 1.995px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_44_jc {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_44_jc {
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 1));
+		overflow: visible;
+		position: absolute;
+		width: 103.745px;
+		height: 105.062px;
+		left: 261.191px;
+		top: 1089.281px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID12 {
+		filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.161));
+		left: 261.608px;
+		top: 1075.739px;
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 21px;
+		color: rgba(0,0,0,1);
+	}
+	#Off_Site_exclusive_nonexclusiv {
+		left: 264px;
+		top: 1119px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+		text-transform: capitalize;
+	}
+	#Group_43_jf {
+		position: absolute;
+		width: 29.26px;
+		height: 6.908px;
+		left: 310px;
+		top: 1162px;
+		overflow: visible;
+	}
+	#See_more_jg {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4px;
+		color: rgba(36,160,237,1);
+		text-decoration: underline;
+	}
+	#Icon_awesome-arrow-right_jh {
+		fill: rgba(36,160,237,1);
+	}
+	.Icon_awesome-arrow-right_jh {
+		overflow: visible;
+		position: absolute;
+		width: 4.315px;
+		height: 4.206px;
+		left: 24.944px;
+		top: 2.702px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_68 {
+		position: absolute;
+		width: 284.645px;
+		height: 400px;
+		left: 79px;
+		top: 1251px;
+		overflow: visible;
+	}
+	#mobchildcaresec {
+		position: absolute;
+		width: 200px;
+		height: 180px;
+		left: 6px;
+		top: 0px;
+		overflow: visible;
+	}
+	#At_krio_with_our_precise_under_jk {
+		left: 0px;
+		top: 263px;
+		position: absolute;
+		overflow: visible;
+		width: 201px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Our_facility_is_monitored_247__jl {
+		left: 0px;
+		top: 352px;
+		position: absolute;
+		overflow: visible;
+		width: 157px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Child_care_jm {
+		left: 0px;
+		top: 199px;
+		position: absolute;
+		overflow: visible;
+		width: 79px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(0,160,227,1);
+		text-decoration: underline;
+	}
+	#ID247_care_day__night_care_jn {
+		left: 0px;
+		top: 233px;
+		position: absolute;
+		overflow: visible;
+		width: 143px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(0,0,0,1);
+	}
+	#ezgifcom-gif-maker_jo {
+		opacity: 0.15;
+		position: absolute;
+		width: 68.783px;
+		height: 162.556px;
+		left: 215.862px;
+		top: 4.918px;
+		overflow: visible;
+	}
+	#Group_69 {
+		position: absolute;
+		width: 375px;
+		height: 498px;
+		left: 0px;
+		top: 1658px;
+		overflow: visible;
+	}
+	#ID2723394_jq {
+		fill: rgba(226,226,226,1);
+	}
+	.ID2723394_jq {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 498px;
+		left: 0px;
+		top: 0px;
+	}
+	#mobinfantsec {
+		position: absolute;
+		width: 200px;
+		height: 180px;
+		left: 88px;
+		top: 30px;
+		overflow: visible;
+	}
+	#At_krio_we_take_extra_care_to__js {
+		left: 39px;
+		top: 283px;
+		position: absolute;
+		overflow: visible;
+		width: 271px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Our_Infant_care_program_is_des_jt {
+		left: 40.5px;
+		top: 425px;
+		position: absolute;
+		overflow: visible;
+		width: 295px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(57,49,133,1);
+	}
+	#Infant_Care__ju {
+		left: 40px;
+		top: 222px;
+		position: absolute;
+		overflow: visible;
+		width: 88px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(57,49,133,1);
+		text-decoration: underline;
+	}
+	#ID6_to_12_months__jv {
+		left: 39px;
+		top: 255px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_70 {
+		position: absolute;
+		width: 272px;
+		height: 453px;
+		left: 52px;
+		top: 2180px;
+		overflow: visible;
+	}
+	#mobwaddlersec {
+		position: absolute;
+		width: 200px;
+		height: 180px;
+		left: 36px;
+		top: 0px;
+		overflow: visible;
+	}
+	#At_Krio_we_provide_waddlers__t_jy {
+		left: 0px;
+		top: 271px;
+		position: absolute;
+		overflow: visible;
+		width: 273px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Our_facility_is_monitored_247__jz {
+		left: 0px;
+		top: 405px;
+		position: absolute;
+		overflow: visible;
+		width: 157px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(239,127,26,1);
+	}
+	#Waddler___Toddler_Care__j {
+		left: 0px;
+		top: 200px;
+		position: absolute;
+		overflow: visible;
+		width: 193px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(239,127,26,1);
+		text-decoration: underline;
+	}
+	#ID13_months_to_26_years__j {
+		left: 0px;
+		top: 238px;
+		position: absolute;
+		overflow: visible;
+		width: 127px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_71 {
+		position: absolute;
+		width: 375px;
+		height: 440px;
+		left: 0px;
+		top: 2633px;
+		overflow: visible;
+	}
+	#ID2723394_j {
+		fill: rgba(226,226,226,1);
+	}
+	.ID2723394_j {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 440px;
+		left: 0px;
+		top: 0px;
+	}
+	#mobafterschoolsec {
+		position: absolute;
+		width: 200px;
+		height: 180px;
+		left: 88px;
+		top: 20px;
+		overflow: visible;
+	}
+	#Krio_provides_comforting_envir_j {
+		left: 52px;
+		top: 318px;
+		position: absolute;
+		overflow: visible;
+		width: 242px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#After_School_Care__j {
+		left: 52px;
+		top: 249px;
+		position: absolute;
+		overflow: visible;
+		width: 141px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(34,0,255,1);
+		text-decoration: underline;
+	}
+	#under_12_years_j {
+		left: 52px;
+		top: 283px;
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_72 {
+		position: absolute;
+		width: 239px;
+		height: 367px;
+		left: 52px;
+		top: 3088px;
+		overflow: visible;
+	}
+	#mobadhocsec {
+		position: absolute;
+		width: 200px;
+		height: 180px;
+		left: 36px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Krio_offers_flexible_daycare_p_ka {
+		left: 0px;
+		top: 271px;
+		position: absolute;
+		overflow: visible;
+		width: 240px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Ad_hoc_care__kb {
+		left: 0px;
+		top: 200px;
+		position: absolute;
+		overflow: visible;
+		width: 95px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(229,26,75,1);
+		text-decoration: underline;
+	}
+	#under_12_years_kc {
+		left: 0px;
+		top: 235px;
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_73 {
+		position: absolute;
+		width: 375px;
+		height: 440px;
+		left: 0px;
+		top: 3455px;
+		overflow: visible;
+	}
+	#ID2723394_ke {
+		fill: rgba(226,226,226,1);
+	}
+	.ID2723394_ke {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 440px;
+		left: 0px;
+		top: 0px;
+	}
+	#mobmeetimesec {
+		position: absolute;
+		width: 200px;
+		height: 180px;
+		left: 88px;
+		top: 21px;
+		overflow: visible;
+	}
+	#Krio_provides_this_uniquely_de_kg {
+		left: 53px;
+		top: 291px;
+		position: absolute;
+		overflow: visible;
+		width: 283px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Mee_Time_Care__kh {
+		left: 52px;
+		top: 221px;
+		position: absolute;
+		overflow: visible;
+		width: 119px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(0,160,227,1);
+		text-decoration: underline;
+	}
+	#under_12_years_ki {
+		left: 52px;
+		top: 253px;
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_74 {
+		position: absolute;
+		width: 294px;
+		height: 451px;
+		left: 52px;
+		top: 3915px;
+		overflow: visible;
+	}
+	#mobresidentialsec {
+		position: absolute;
+		width: 200px;
+		height: 180px;
+		left: 36px;
+		top: 0px;
+		overflow: visible;
+	}
+	#No_longer_will_your_official_o_kl {
+		left: 0px;
+		top: 259px;
+		position: absolute;
+		overflow: visible;
+		width: 295px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Residential_Care__km {
+		left: 0px;
+		top: 190px;
+		position: absolute;
+		overflow: visible;
+		width: 133px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(42,34,123,1);
+		text-decoration: underline;
+	}
+	#short-time_residential_care__l_kn {
+		left: 0px;
+		top: 222px;
+		position: absolute;
+		overflow: visible;
+		width: 231px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_75 {
+		position: absolute;
+		width: 375px;
+		height: 440px;
+		left: 0px;
+		top: 4366px;
+		overflow: visible;
+	}
+	#ID2723394_kp {
+		fill: rgba(226,226,226,1);
+	}
+	.ID2723394_kp {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 440px;
+		left: 0px;
+		top: 0px;
+	}
+	#mobpreschoolsec {
+		position: absolute;
+		width: 200px;
+		height: 180px;
+		left: 88px;
+		top: 24px;
+		overflow: visible;
+	}
+	#Krio_offers_age-appropriate_ch_kr {
+		left: 52px;
+		top: 251px;
+		position: absolute;
+		overflow: visible;
+		width: 309px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Preschool_ks {
+		left: 52px;
+		top: 220px;
+		position: absolute;
+		overflow: visible;
+		width: 77px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(0,160,227,1);
+		text-decoration: underline;
+	}
+	#Group_76 {
+		position: absolute;
+		width: 288px;
+		height: 383px;
+		left: 52px;
+		top: 4823px;
+		overflow: visible;
+	}
+	#mobholidaysec {
+		position: absolute;
+		width: 200px;
+		height: 180px;
+		left: 36px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Krio_offers_exciting_holiday_c_kv {
+		left: 0px;
+		top: 263px;
+		position: absolute;
+		overflow: visible;
+		width: 289px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Holiday_Camps__kw {
+		left: 0px;
+		top: 196px;
+		position: absolute;
+		overflow: visible;
+		width: 121px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(239,127,26,1);
+		text-decoration: underline;
+	}
+	#under_12_years_kx {
+		left: 0px;
+		top: 228px;
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_77 {
+		position: absolute;
+		width: 375px;
+		height: 450px;
+		left: 0px;
+		top: 5206px;
+		overflow: visible;
+	}
+	#modcorporatesec {
+		fill: rgba(226,226,226,1);
+	}
+	.modcorporatesec {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 450px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_126 {
+		position: absolute;
+		width: 200px;
+		height: 180px;
+		left: 88px;
+		top: 20px;
+		overflow: visible;
+	}
+	#Krios_co-founders_in_their_pas_k {
+		left: 53px;
+		top: 248px;
+		position: absolute;
+		overflow: visible;
+		width: 305px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Corporate_Child_care_k {
+		left: 52px;
+		top: 217px;
+		position: absolute;
+		overflow: visible;
+		width: 161px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(229,26,75,1);
+		text-decoration: underline;
+	}
+	#Group_78 {
+		position: absolute;
+		width: 304px;
+		height: 446px;
+		left: 52px;
+		top: 5673px;
+		overflow: visible;
+	}
+	#mobonsitechildsec {
+		position: absolute;
+		width: 200px;
+		height: 180px;
+		left: 36px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Onsite_Childcare__professional_k {
+		left: 0px;
+		top: 230px;
+		position: absolute;
+		overflow: visible;
+		width: 305px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Onsite_child_care_k {
+		left: 0px;
+		top: 199px;
+		position: absolute;
+		overflow: visible;
+		width: 125px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,160,227,1);
+		text-decoration: underline;
+	}
+	#Group_79 {
+		position: absolute;
+		width: 375px;
+		height: 489px;
+		left: 0px;
+		top: 6119px;
+		overflow: visible;
+	}
+	#ID2723394_k {
+		fill: rgba(226,226,226,1);
+	}
+	.ID2723394_k {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 489px;
+		left: 0px;
+		top: 0px;
+	}
+	#moboffsitesec {
+		position: absolute;
+		width: 200px;
+		height: 180px;
+		left: 88px;
+		top: 10px;
+		overflow: visible;
+	}
+	#Off_Site_exclusivenonexclusive_la {
+		left: 53px;
+		top: 254px;
+		position: absolute;
+		overflow: visible;
+		width: 297px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Off_Site_exclusivenonexclusive_lb {
+		left: 52px;
+		top: 200px;
+		position: absolute;
+		overflow: visible;
+		width: 230px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Signika;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(239,127,26,1);
+		text-decoration: underline;
+	}
+}
