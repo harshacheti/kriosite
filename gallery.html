@@ -13,8 +13,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	
-	<script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-storage"></script>
+	
 	<script defer src="/__/firebase/7.21.1/firebase-app.js"></script>
     <!-- include only the Firebase features as you need -->
     <script defer src="/__/firebase/7.21.1/firebase-auth.js"></script>
@@ -29,16 +28,6 @@
 </head>
 
 <body>
-<script>	const firebaseConfig = {
-  apiKey: "AIzaSyDS8Ua8egB6RYIdTsML1G0DlaQD1dblYvY",
-  authDomain: "krio-3d9a0.firebaseapp.com",
-  databaseURL: "https://krio-3d9a0.firebaseio.com",
-  projectId: "krio-3d9a0",
-  storageBucket: "krio-3d9a0.appspot.com",
-  messagingSenderId: "337265659406",
-  appId: "1:337265659406:web:9375527110712a7408765f",
-  measurementId: "G-VEN3X0PJYP"
-	};</script>
 
 
 
@@ -289,6 +278,26 @@
 		  </a>
 		</div>
 	  </div>
+	
+	<script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-storage"></script>
+	
+<script>	
+	var firebaseConfig = {
+  apiKey: "AIzaSyDS8Ua8egB6RYIdTsML1G0DlaQD1dblYvY",
+  authDomain: "krio-3d9a0.firebaseapp.com",
+  databaseURL: "https://krio-3d9a0.firebaseio.com",
+  projectId: "krio-3d9a0",
+  storageBucket: "krio-3d9a0.appspot.com",
+  messagingSenderId: "337265659406",
+  appId: "1:337265659406:web:9375527110712a7408765f",
+  measurementId: "G-VEN3X0PJYP"
+	};
+	firebase.initializeApp(firebaseConfig);
+		firebase.database();
+	firebase.storage();
+	
+	</script>
 
 </body>
 <script src="slider.js"></script>
